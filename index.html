@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anders Pålssons väg 17 — Husvisning</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;600&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body { width: 100%; background: #000; }
+
+  #viewport { position: fixed; inset: 0; overflow: hidden; background: #000; }
+
+  #scenes { position: absolute; inset: 0; }
+
+  .scene {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transform: scale(1.0);
+    transform-origin: center center;
+    will-change: transform, opacity;
+  }
+
+  #gradient {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.82) 0%, rgba(0,0,0,0.15) 50%, rgba(0,0,0,0.25) 100%);
+    pointer-events: none;
+    z-index: 2;
+  }
+
+  #text-layer { position: absolute; bottom: 9%; left: 7%; max-width: 520px; z-index: 3; pointer-events: none; }
+
+  .caption { position: absolute; bottom: 0; left: 0; opacity: 0; pointer-events: none; will-change: opacity, transform; }
+  .caption.active { pointer-events: all; }
+
+  .gold-line { display: block; width: 36px; height: 1px; background: #B8956A; margin-bottom: 14px; }
+
+  .overline {
+    display: block;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px; font-weight: 300;
+    letter-spacing: 0.28em; color: #B8956A;
+    text-transform: uppercase; margin-bottom: 10px;
+  }
+
+  .caption h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(40px, 6vw, 82px); font-weight: 300;
+    color: #F5F0E8; line-height: 1.0; margin-bottom: 12px;
+    text-shadow: 0 6px 30px rgba(0,0,0,0.5);
+  }
+
+  .caption h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(30px, 4.5vw, 60px); font-weight: 300;
+    color: #F5F0E8; line-height: 1.05; margin-bottom: 10px;
+    text-shadow: 0 6px 30px rgba(0,0,0,0.5);
+  }
+
+  .caption p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px; font-weight: 300;
+    color: rgba(245, 240, 232, 0.70); line-height: 1.75; margin-bottom: 22px;
+  }
+
+  .cta {
+    display: inline-block;
+    border: 1px solid #B8956A; color: #B8956A;
+    padding: 13px 38px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px; letter-spacing: 0.22em;
+    text-decoration: none; text-transform: uppercase;
+    pointer-events: all; transition: background 0.3s, color 0.3s;
+  }
+  .cta:hover { background: #B8956A; color: #0D0D0D; }
+
+  #progress-track {
+    position: fixed; right: 26px; top: 50%; transform: translateY(-50%);
+    width: 1px; height: 180px; background: rgba(255,255,255,0.12); z-index: 10;
+  }
+  #progress-fill { width: 100%; height: 0%; background: #B8956A; }
+
+  #scroll-hint {
+    position: fixed; bottom: 36px; left: 50%; transform: translateX(-50%);
+    display: flex; flex-direction: column; align-items: center; gap: 8px;
+    z-index: 10; opacity: 1; transition: opacity 0.5s;
+  }
+  .scroll-line { width: 1px; height: 40px; background: rgba(255,255,255,0.4); animation: scrollPulse 1.6s ease-in-out infinite; }
+  @keyframes scrollPulse {
+    0%   { transform: scaleY(0); transform-origin: top; opacity: 1; }
+    50%  { transform: scaleY(1); transform-origin: top; opacity: 1; }
+    100% { transform: scaleY(1); transform-origin: top; opacity: 0; }
+  }
+  #scroll-hint span { font-family: 'DM Sans', sans-serif; font-size: 9px; letter-spacing: 0.28em; color: rgba(255,255,255,0.45); text-transform: uppercase; }
+
+  #loader {
+    position: fixed; inset: 0; background: #0A0A0A;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 20px; z-index: 9999; transition: opacity 0.8s ease;
+  }
+  .loader-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(22px,5vw,26px); font-weight: 300; color: #B8956A; letter-spacing: 0.05em; text-align: center; padding: 0 6vw; }
+  .loader-bar { width: 180px; height: 1px; background: rgba(255,255,255,0.08); overflow: hidden; }
+  .loader-fill { height: 100%; background: #B8956A; width: 0%; animation: loadFill 1.8s cubic-bezier(0.4, 0, 0.2, 1) forwards; }
+  @keyframes loadFill { to { width: 100%; } }
+  .loader-sub { font-family: 'DM Sans', sans-serif; font-size: 9px; letter-spacing: 0.3em; color: rgba(255,255,255,0.25); text-transform: uppercase; }
+
+  @media (max-width: 768px) {
+    #text-layer { bottom: 8%; left: 5%; max-width: 88vw; }
+    #progress-track { display: none; }
+  }
+</style>
+</head>
+<body>
+
+  <div id="loader">
+    <p class="loader-title">Anders Pålssons väg 17</p>
+    <div class="loader-bar"><div class="loader-fill"></div></div>
+    <p class="loader-sub">Laddar visningen</p>
+  </div>
+
+  <div id="viewport">
+
+    <div id="scenes">
+      <img class="scene" id="scene-0"  alt="" src="https://bilder.hemnet.se/images/7359dd1dfa9eaf1cf903b64e828e683bb8379ae1439e0a870fa09575f23ec8e9/81/08/81085fd227888b1211ccf2c604cc78bd.jpg?quality=70&width=2048&name=web-prod">
+      <img class="scene" id="scene-1"  alt="" src="https://bilder.hemnet.se/images/7359dd1dfa9eaf1cf903b64e828e683bb8379ae1439e0a870fa09575f23ec8e9/47/77/4777a56d8a6f4ae80212dc4d0079dfcc.jpg?quality=70&width=2048&name=web-prod">
+      <img class="scene" id="scene-2"  alt="" src="https://bilder.hemnet.se/images/7359dd1dfa9eaf1cf903b64e828e683bb8379ae1439e0a870fa09575f23ec8e9/68/e7/68e7134604dc0a6ef26ee4d8767382a8.jpg?quality=70&width=2048&name=web-prod">
+      <img class="scene" id="scene-3"  alt="" src="https://bilder.hemnet.se/images/7359dd1dfa9eaf1cf903b64e828e683bb8379ae1439e0a870fa09575f23ec8e9/19/44/19448dadba51b903e4328c511a0f1f39.jpg?quality=70&width=2048&name=web-prod">
+      <img class="scene" id="scene-4"  alt="" src="https://bilder.hemnet.se/images/7359dd1dfa9eaf1cf903b64e828e683bb8379ae1439e0a870fa09575f23ec8e9/b3/8b/b38bc9b9d616a40fbed291656aaf8beb.jpg?quality=70&width=2048&name=web-prod">
+      <img class="scene" id="scene-5"  alt="" src="https://bilder.hemnet.se/images/7359dd1dfa9eaf1cf903b64e828e683bb8379ae1439e0a870fa09575f23ec8e9/08/b7/08b7dbf1ba4bafe6779271130a93b8e8.jpg?quality=70&width=2048&name=web-prod">
+      <img class="scene" id="scene-6"  alt="" src="https://bilder.hemnet.se/images/7359dd1dfa9eaf1cf903b64e828e683bb8379ae1439e0a870fa09575f23ec8e9/3e/c2/3ec277c539d55ec49b289527576838cd.jpg?quality=70&width=2048&name=web-prod">
+      <img class="scene" id="scene-7"  alt="" src="https://bilder.hemnet.se/images/7359dd1dfa9eaf1cf903b64e828e683bb8379ae1439e0a870fa09575f23ec8e9/af/01/af01656e20fa66809678980ee2232850.jpg?quality=70&width=2048&name=web-prod">
+      <img class="scene" id="scene-8"  alt="" src="https://bilder.hemnet.se/images/7359dd1dfa9eaf1cf903b64e828e683bb8379ae1439e0a870fa09575f23ec8e9/ce/66/ce66cb763684a4805ee9e02d2d76128c.jpg?quality=70&width=2048&name=web-prod">
+      <img class="scene" id="scene-9"  alt="" src="https://bilder.hemnet.se/images/7359dd1dfa9eaf1cf903b64e828e683bb8379ae1439e0a870fa09575f23ec8e9/f9/d2/f9d2f614d972e6821497e84515af32ae.jpg?quality=70&width=2048&name=web-prod">
+      <img class="scene" id="scene-10" alt="" src="https://bilder.hemnet.se/images/7359dd1dfa9eaf1cf903b64e828e683bb8379ae1439e0a870fa09575f23ec8e9/46/a9/46a9305393f371f230148faa40da0615.jpg?quality=70&width=2048&name=web-prod">
+      <img class="scene" id="scene-11" alt="" src="https://bilder.hemnet.se/images/7359dd1dfa9eaf1cf903b64e828e683bb8379ae1439e0a870fa09575f23ec8e9/73/73/7373079c357fe28db810b99e936bb09d.jpg?quality=70&width=2048&name=web-prod">
+      <img class="scene" id="scene-12" alt="" src="https://bilder.hemnet.se/images/7359dd1dfa9eaf1cf903b64e828e683bb8379ae1439e0a870fa09575f23ec8e9/bf/59/bf5971416f71517a6a64b6d1a5eb3499.jpg?quality=70&width=2048&name=web-prod">
+      <img class="scene" id="scene-13" alt="" src="https://bilder.hemnet.se/images/7359dd1dfa9eaf1cf903b64e828e683bb8379ae1439e0a870fa09575f23ec8e9/e5/1b/e51b3bcef3afa5a3c84fa29521678aec.jpg?quality=70&width=2048&name=web-prod">
+      <img class="scene" id="scene-14" alt="" src="https://bilder.hemnet.se/images/7359dd1dfa9eaf1cf903b64e828e683bb8379ae1439e0a870fa09575f23ec8e9/ac/a3/aca3210142f3b13e6bc7370d6e74b734.jpg?quality=70&width=2048&name=web-prod">
+      <img class="scene" id="scene-15" alt="" src="https://bilder.hemnet.se/images/7359dd1dfa9eaf1cf903b64e828e683bb8379ae1439e0a870fa09575f23ec8e9/81/0d/810d866f1cabea13633b7178d7c96640.jpg?quality=70&width=2048&name=web-prod">
+      <img class="scene" id="scene-16" alt="" src="https://bilder.hemnet.se/images/7359dd1dfa9eaf1cf903b64e828e683bb8379ae1439e0a870fa09575f23ec8e9/53/77/5377065dac5605fc96b17134e0d23676.jpg?quality=70&width=2048&name=web-prod">
+      <img class="scene" id="scene-17" alt="" src="https://bilder.hemnet.se/images/7359dd1dfa9eaf1cf903b64e828e683bb8379ae1439e0a870fa09575f23ec8e9/3a/ee/3aee343c65850d177a61aa65d716fed6.jpg?quality=70&width=2048&name=web-prod">
+    </div>
+
+    <div id="gradient"></div>
+
+    <div id="text-layer">
+      <div class="caption" data-scene="0"><span class="gold-line"></span><span class="overline">Klågerup · Svedala</span><h1>Anders Pålssons väg 17</h1><p>Nybyggt exklusivt stenhus · 6 rum</p></div>
+      <div class="caption" data-scene="1"><span class="gold-line"></span><span class="overline">Välkommen in</span><h2>Ingången</h2><p>Exklusivt stenhus med tidlös arkitektur</p></div>
+      <div class="caption" data-scene="2"><span class="gold-line"></span><span class="overline">Entré</span><h2>Hall &amp; trappa</h2><p>Luftig entré med stilren trappa till övre plan</p></div>
+      <div class="caption" data-scene="3"><span class="gold-line"></span><span class="overline">Toalett</span><h2>Gäst-wc</h2><p>Smakfullt inredd med högkvalitativa material</p></div>
+      <div class="caption" data-scene="4"><span class="gold-line"></span><span class="overline">Spa</span><h2>Spaavdelning</h2><p>Privat spa i hemmet — bastu och avkoppling</p></div>
+      <div class="caption" data-scene="5"><span class="gold-line"></span><span class="overline">Trappan</span><h2>På väg upp</h2><p>Trappan leder till husets hjärta på övre plan</p></div>
+      <div class="caption" data-scene="6"><span class="gold-line"></span><span class="overline">Övre plan</span><h2>Vardagsrummet öppnar sig</h2><p>Högt i tak och fria vyer möter en direkt</p></div>
+      <div class="caption" data-scene="7"><span class="gold-line"></span><span class="overline">Vardagsrum</span><h2>Öppen planlösning</h2><p>Stora fönsterpartier · Högt i tak · Naturliga material</p></div>
+      <div class="caption" data-scene="8"><span class="gold-line"></span><span class="overline">Mot köket</span><h2>Hjärtat av hemmet</h2><p>Köket och vardagsrummet flödar sömlöst ihop</p></div>
+      <div class="caption" data-scene="9"><span class="gold-line"></span><span class="overline">Kök</span><h2>Kockkök med känsla</h2><p>Silestone bänkskiva · Integrerade Siemens-vitvaror</p></div>
+      <div class="caption" data-scene="10"><span class="gold-line"></span><span class="overline">Köksö</span><h2>Samlingspunkt</h2><p>Köksö med sittplatser · Plats för hela familjen</p></div>
+      <div class="caption" data-scene="11"><span class="gold-line"></span><span class="overline">Rymd &amp; ljus</span><h2>Högt i tak</h2><p>Arkitekturen skapar en känsla av frihet</p></div>
+      <div class="caption" data-scene="12"><span class="gold-line"></span><span class="overline">Matplats</span><h2>Middagar för åtta</h2><p>Generös matplats i direkt anslutning till köket</p></div>
+      <div class="caption" data-scene="13"><span class="gold-line"></span><span class="overline">Vardagsrum</span><h2>Ljuset förändrar allt</h2><p>Solen rör sig genom rummet under dagen</p></div>
+      <div class="caption" data-scene="14"><span class="gold-line"></span><span class="overline">Mot trädgården</span><h2>Bakdörren</h2><p>Glaspartiet öppnar upp mot den soliga trädgården</p></div>
+      <div class="caption" data-scene="15"><span class="gold-line"></span><span class="overline">Trädgård</span><h2>Ditt paradis utomhus</h2><p>Södervänd altan · Välskött tomt · Lugnt läge</p></div>
+      <div class="caption" data-scene="16"><span class="gold-line"></span><span class="overline">Baksidan</span><h2>Huset utifrån</h2><p>Arkitektonisk helhet — vacker från alla håll</p></div>
+      <div class="caption" data-scene="17"><span class="gold-line"></span><span class="overline">Fastighetsbyrån Svedala</span><h2>Anders Pålssons väg 17</h2><p>Klågerup, Svedala kommun</p><a class="cta" href="https://www.hemnet.se/bostad/villa-6rum-klagerup-svedala-kommun-anders-palssons-vag-17-21515623" target="_blank" rel="noopener">Visa på Hemnet →</a></div>
+    </div>
+
+    <div id="progress-track"><div id="progress-fill"></div></div>
+
+    <div id="scroll-hint">
+      <div class="scroll-line"></div>
+      <span>Scrolla</span>
+    </div>
+
+  </div>
+
+<script>
+  const SCENE_COUNT = 18;
+  const PX_PER_SCENE = 600;
+  const TOTAL_HEIGHT = SCENE_COUNT * PX_PER_SCENE + 200;
+
+  document.body.style.height = TOTAL_HEIGHT + 'px';
+
+  const scenes = Array.from(document.querySelectorAll('.scene'));
+  const captions = Array.from(document.querySelectorAll('.caption'));
+  const progressFill = document.getElementById('progress-fill');
+  const scrollHint = document.getElementById('scroll-hint');
+  const loader = document.getElementById('loader');
+
+  scenes[0].style.opacity = '1';
+  scenes[0].style.transform = 'scale(1.0)';
+
+  let loaded = 0;
+  scenes.forEach(img => {
+    if (img.complete) {
+      loaded++;
+      if (loaded === SCENE_COUNT) showSite();
+    } else {
+      img.addEventListener('load', () => { loaded++; if (loaded === SCENE_COUNT) showSite(); });
+      img.addEventListener('error', () => { loaded++; if (loaded === SCENE_COUNT) showSite(); });
+    }
+  });
+
+  let siteShown = false;
+  function showSite() {
+    if (siteShown) return;
+    siteShown = true;
+    loader.style.opacity = '0';
+    setTimeout(() => loader.style.display = 'none', 800);
+  }
+  setTimeout(showSite, 3000);
+
+  let easedScroll = 0;
+  let targetScroll = 0;
+
+  window.addEventListener('scroll', () => {
+    targetScroll = window.scrollY;
+    if (targetScroll > 50) scrollHint.style.opacity = '0';
+  }, { passive: true });
+
+  function lerp(a, b, t) { return a + (b - a) * t; }
+
+  (function tick() {
+    easedScroll = lerp(easedScroll, targetScroll, 0.06);
+    const rawScene = easedScroll / PX_PER_SCENE;
+    const activeIndex = Math.floor(rawScene);
+    const t = rawScene - activeIndex;
+    render(activeIndex, t, rawScene);
+    requestAnimationFrame(tick);
+  })();
+
+  function render(active, t, rawScene) {
+    scenes.forEach((img, i) => {
+      let opacity = 0;
+      let scale = 1.0;
+
+      if (i === active) {
+        opacity = 1;
+        scale = 1.0 + (t * 0.55);
+      } else if (i === active + 1) {
+        opacity = t > 0.65 ? (t - 0.65) / 0.35 : 0;
+        scale = 1.0 + (Math.max(0, t - 0.65) / 0.35 * 0.03);
+      } else if (i === active - 1) {
+        opacity = t < 0.35 ? 1.0 - (t / 0.35) : 0;
+        scale = 1.55 + (t * 0.05);
+      } else {
+        opacity = 0;
+        scale = 1.0;
+      }
+
+      img.style.opacity = Math.max(0, Math.min(1, opacity));
+      img.style.transform = `scale(${scale})`;
+    });
+
+    captions.forEach((cap, i) => {
+      let op = 0;
+      let ty = 0;
+      if (i === active) {
+        const fadeIn  = Math.min(Math.max((t - 0.20) / 0.18, 0), 1);
+        const fadeOut = Math.max(1 - Math.max((t - 0.72) / 0.18, 0), 0);
+        op = Math.min(fadeIn, fadeOut);
+        ty = (1 - op) * 22;
+      }
+      cap.style.opacity = op;
+      cap.style.transform = `translateY(${ty}px)`;
+      cap.classList.toggle('active', i === active && op > 0.5);
+    });
+
+    const totalProgress = Math.min(rawScene / (SCENE_COUNT - 1), 1);
+    progressFill.style.height = (totalProgress * 100) + '%';
+  }
+</script>
+</body>
+</html>

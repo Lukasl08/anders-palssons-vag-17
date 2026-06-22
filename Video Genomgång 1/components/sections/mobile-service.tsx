@@ -92,7 +92,7 @@ export function MobileService() {
               <Reveal
                 key={point.title}
                 delayIndex={i}
-                className="group flex gap-4 rounded-2xl border border-white/10 bg-card/40 p-5 transition-all duration-300 hover:-translate-y-1 hover:border-ember-400/40"
+                className="glass glass-hover group flex gap-4 p-5"
               >
                 <div className="grid size-12 shrink-0 place-items-center rounded-xl bg-ember-500/10 text-ember-300 transition-colors group-hover:bg-flame-gradient group-hover:text-black">
                   <point.icon className="size-5" />

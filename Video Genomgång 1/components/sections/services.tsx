@@ -27,7 +27,7 @@ export function Services() {
               key={service.id}
               delayIndex={i}
               as="article"
-              className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-white/10 bg-card/60 p-7 transition-all duration-300 hover:-translate-y-1.5 hover:border-gold/30 hover:shadow-glow"
+              className="glass glass-hover group relative flex h-full flex-col overflow-hidden p-7"
             >
               {/* Hover-glöd */}
               <div className="pointer-events-none absolute -right-16 -top-16 h-40 w-40 rounded-full bg-gold/10 opacity-0 blur-2xl transition-opacity duration-500 group-hover:opacity-100" />

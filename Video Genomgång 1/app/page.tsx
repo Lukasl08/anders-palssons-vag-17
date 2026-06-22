@@ -2,6 +2,7 @@ import { Navbar } from "@/components/navbar";
 import { ScrollProgress } from "@/components/scroll-progress";
 import { BackToTop } from "@/components/back-to-top";
 import { LoadingScreen } from "@/components/loading-screen";
+import { LiquidBackground } from "@/components/fx/liquid-bg";
 import { Hero } from "@/components/sections/hero";
 import { Marquee } from "@/components/sections/marquee";
 import { About } from "@/components/sections/about";
@@ -20,6 +21,7 @@ export default function Home() {
   return (
     <>
       <LoadingScreen />
+      <LiquidBackground />
       <ScrollProgress />
       <Navbar />
       <main>

@@ -51,13 +51,18 @@ export function Navbar() {
   return (
     <header
       className={cn(
-        "fixed inset-x-0 top-0 z-50 transition-all duration-300",
-        scrolled
-          ? "border-b border-white/10 bg-background/80 backdrop-blur-xl"
-          : "border-b border-transparent bg-transparent"
+        "fixed inset-x-0 top-0 z-50 transition-all duration-500 ease-liquid",
+        scrolled ? "px-3 pt-3 sm:px-5 sm:pt-4" : "px-0 pt-0"
       )}
     >
-      <nav className="container flex h-[72px] items-center justify-between">
+      <nav
+        className={cn(
+          "container flex h-[68px] items-center justify-between transition-all duration-500 ease-liquid",
+          scrolled
+            ? "glass !rounded-full px-5 shadow-liquid sm:px-6"
+            : "h-[72px] rounded-none border-transparent bg-transparent"
+        )}
+      >
         <Logo />
 
         {/* Desktop-länkar */}

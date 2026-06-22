@@ -34,10 +34,8 @@ export function Faq() {
                 key={item.question}
                 delayIndex={i}
                 className={cn(
-                  "overflow-hidden rounded-2xl border transition-colors",
-                  isOpen
-                    ? "border-gold/30 bg-card/70"
-                    : "border-white/10 bg-card/40"
+                  "glass overflow-hidden transition-colors",
+                  isOpen ? "!border-gold/35" : ""
                 )}
               >
                 <button

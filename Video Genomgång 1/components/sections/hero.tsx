@@ -166,7 +166,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.5 }}
-            className="glass absolute -bottom-5 -left-4 flex items-center gap-3 rounded-2xl px-5 py-4 shadow-card sm:-left-8"
+            className="glass glass-iridescent absolute -bottom-5 -left-4 flex items-center gap-3 rounded-2xl px-5 py-4 sm:-left-8"
           >
             <div className="flex flex-col">
               <div className="flex items-center gap-0.5 text-gold">
@@ -188,7 +188,7 @@ export function Hero() {
             initial={{ opacity: 0, y: -16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.6 }}
-            className="glass absolute -right-3 top-6 rounded-2xl px-4 py-3 shadow-card sm:-right-6"
+            className="glass glass-iridescent absolute -right-3 top-6 rounded-2xl px-4 py-3 sm:-right-6"
           >
             <span className="block text-lg font-bold text-flame-gradient">
               <AnimatedCounter value={siteConfig.stats.knivesSharpened} />

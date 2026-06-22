@@ -4,17 +4,17 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/60 focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:pointer-events-none disabled:opacity-50 [&_svg]:size-4 [&_svg]:shrink-0",
+  "inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-300 ease-liquid focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/60 focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:pointer-events-none disabled:opacity-50 [&_svg]:size-4 [&_svg]:shrink-0",
   {
     variants: {
       variant: {
         primary:
           "bg-gold-gradient text-black shadow-glow hover:shadow-[0_0_0_1px_rgba(231,183,101,0.4),0_24px_60px_-12px_rgba(231,183,101,0.5)] hover:-translate-y-0.5",
         outline:
-          "border border-gold/40 text-gold-100 hover:bg-gold/10 hover:border-gold/70 hover:-translate-y-0.5",
+          "border border-gold/40 text-gold-100 backdrop-blur-md hover:bg-gold/10 hover:border-gold/70 hover:-translate-y-0.5",
         ghost: "text-foreground/80 hover:text-foreground hover:bg-white/5",
         secondary:
-          "bg-white/5 text-foreground border border-white/10 backdrop-blur hover:bg-white/10 hover:-translate-y-0.5",
+          "border border-white/12 bg-white/[0.06] text-foreground backdrop-blur-xl backdrop-saturate-150 shadow-[inset_0_1px_0_rgba(255,255,255,0.18)] hover:bg-white/[0.12] hover:border-white/20 hover:-translate-y-0.5",
       },
       size: {
         sm: "h-9 px-4",

@@ -1,21 +1,24 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Jost, Bodoni_Moda } from "next/font/google";
 import "./globals.css";
 import { siteConfig } from "@/lib/site.config";
 import { localBusinessJsonLd, faqJsonLd, reviewsJsonLd } from "@/lib/jsonld";
 import { ThemeProvider } from "@/components/theme-provider";
 
-const inter = Inter({
+// Jost – ren, geometrisk sans för brödtext (luxury minimalist)
+const jost = Jost({
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-jost",
   display: "swap",
+  weight: ["300", "400", "500", "600", "700"],
 });
 
-const playfair = Playfair_Display({
+// Bodoni Moda – högkontrast-serif för rubriker (high-end)
+const bodoni = Bodoni_Moda({
   subsets: ["latin"],
-  variable: "--font-playfair",
+  variable: "--font-bodoni",
   display: "swap",
-  weight: ["500", "600", "700"],
+  weight: ["400", "500", "600", "700"],
 });
 
 const title = `${siteConfig.name} – Professionell knivslipning i ${siteConfig.city}`;
@@ -107,7 +110,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewsJsonLd()) }}
         />
       </head>
-      <body className={`${inter.variable} ${playfair.variable} font-sans antialiased`}>
+      <body className={`${jost.variable} ${bodoni.variable} font-sans antialiased`}>
         <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>

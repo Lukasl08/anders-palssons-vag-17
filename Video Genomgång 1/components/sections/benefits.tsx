@@ -66,7 +66,7 @@ export function Benefits() {
             <Reveal
               key={benefit.title}
               delayIndex={i}
-              className="group flex gap-4 rounded-2xl border border-white/10 bg-card/50 p-5 transition-all duration-300 hover:-translate-y-1 hover:border-gold/30 hover:bg-card/80"
+              className="glass glass-hover group flex gap-4 p-5"
             >
               <div className="grid size-11 shrink-0 place-items-center rounded-xl bg-gold/10 text-gold transition-colors group-hover:bg-gold/20">
                 <benefit.icon className="size-5" />

@@ -54,7 +54,7 @@ export function Contact() {
               <Reveal
                 key={card.label}
                 delayIndex={i}
-                className="group flex items-center gap-4 rounded-2xl border border-white/10 bg-card/50 p-5 transition-all duration-300 hover:-translate-y-1 hover:border-gold/30"
+                className="glass glass-hover group flex items-center gap-4 p-5"
               >
                 <div className="grid size-12 shrink-0 place-items-center rounded-xl bg-gold/10 text-gold transition-colors group-hover:bg-gold/20">
                   <card.icon className="size-5" />
@@ -78,7 +78,7 @@ export function Contact() {
             {/* Öppettider */}
             <Reveal
               delayIndex={3}
-              className="rounded-2xl border border-white/10 bg-card/50 p-5"
+              className="glass p-5"
             >
               <div className="flex items-center gap-2 text-foreground">
                 <Clock className="size-5 text-gold" />

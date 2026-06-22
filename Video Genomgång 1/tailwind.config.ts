@@ -56,8 +56,11 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans: ["var(--font-inter)", "system-ui", "sans-serif"],
-        display: ["var(--font-playfair)", "Georgia", "serif"],
+        sans: ["var(--font-jost)", "system-ui", "sans-serif"],
+        display: ["var(--font-bodoni)", "Georgia", "serif"],
+      },
+      transitionTimingFunction: {
+        liquid: "cubic-bezier(0.22, 1, 0.36, 1)",
       },
       borderRadius: {
         xl: "1rem",
@@ -67,6 +70,9 @@ const config: Config = {
         glow: "0 0 0 1px rgba(231,183,101,0.18), 0 18px 50px -12px rgba(231,183,101,0.28)",
         ember: "0 0 0 1px rgba(255,106,26,0.25), 0 18px 60px -10px rgba(255,72,12,0.45)",
         card: "0 20px 60px -24px rgba(0,0,0,0.7)",
+        // Liquid glass – mjuk djup + inre highlight-ring
+        liquid:
+          "inset 0 1px 0 rgba(255,255,255,0.22), inset 0 -1px 1px rgba(0,0,0,0.25), 0 24px 60px -22px rgba(0,0,0,0.65)",
       },
       backgroundImage: {
         "gold-gradient": "linear-gradient(135deg, #F6E6C5 0%, #E7B765 45%, #C98A28 100%)",
@@ -78,6 +84,11 @@ const config: Config = {
           "radial-gradient(60% 60% at 50% 0%, rgba(231,183,101,0.16) 0%, rgba(231,183,101,0) 70%)",
         "ember-fade":
           "radial-gradient(60% 50% at 50% 100%, rgba(255,72,12,0.28) 0%, rgba(255,72,12,0) 70%)",
+        // Iridescent liquid-glass edge / sheen
+        "iridescent":
+          "linear-gradient(120deg, rgba(231,183,101,0.5) 0%, rgba(255,138,43,0.35) 25%, rgba(167,183,199,0.4) 50%, rgba(231,183,101,0.45) 75%, rgba(255,138,43,0.35) 100%)",
+        "liquid-sheen":
+          "linear-gradient(135deg, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0.04) 30%, rgba(255,255,255,0) 60%)",
       },
       keyframes: {
         "fade-up": {
@@ -112,6 +123,26 @@ const config: Config = {
           "0%, 100%": { opacity: "0.5", transform: "scale(1)" },
           "50%": { opacity: "0.9", transform: "scale(1.08)" },
         },
+        // Liquid morphing blobs – flytande border-radius + drift
+        morph: {
+          "0%, 100%": {
+            borderRadius: "42% 58% 63% 37% / 41% 44% 56% 59%",
+            transform: "translate(0,0) rotate(0deg) scale(1)",
+          },
+          "33%": {
+            borderRadius: "67% 33% 41% 59% / 57% 62% 38% 43%",
+            transform: "translate(3%,-4%) rotate(8deg) scale(1.06)",
+          },
+          "66%": {
+            borderRadius: "38% 62% 56% 44% / 49% 39% 61% 51%",
+            transform: "translate(-3%,3%) rotate(-6deg) scale(0.96)",
+          },
+        },
+        // Iridescent sheen som glider över glaset
+        "sheen-pan": {
+          "0%, 100%": { backgroundPosition: "0% 50%" },
+          "50%": { backgroundPosition: "100% 50%" },
+        },
       },
       animation: {
         "fade-up": "fade-up 0.7s ease-out both",
@@ -121,6 +152,8 @@ const config: Config = {
         "gradient-pan": "gradient-pan 8s ease infinite",
         marquee: "marquee 28s linear infinite",
         "pulse-glow": "pulse-glow 4s ease-in-out infinite",
+        morph: "morph 18s ease-in-out infinite",
+        "sheen-pan": "sheen-pan 8s ease infinite",
       },
     },
   },

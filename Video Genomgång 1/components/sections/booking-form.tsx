@@ -123,7 +123,7 @@ export function BookingForm() {
             ))}
           </ul>
 
-          <div className="mt-8 flex items-center gap-3 rounded-2xl border border-white/10 bg-card/50 p-4 text-sm text-muted-foreground">
+          <div className="glass mt-8 flex items-center gap-3 p-4 text-sm text-muted-foreground">
             <ShieldCheck className="size-5 shrink-0 text-gold" />
             Dina uppgifter används endast för att hantera din förfrågan.
           </div>

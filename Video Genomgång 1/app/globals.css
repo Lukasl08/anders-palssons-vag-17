@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 30% 5%;
+    --foreground: 40 30% 96%;
+    --muted: 220 14% 16%;
+    --muted-foreground: 220 12% 65%;
+    --card: 222 24% 9%;
+    --card-foreground: 40 30% 96%;
+    --border: 220 16% 18%;
+  }
+
+  /* Light mode (dark mode är standard – togglas via .light på <html>) */
+  .light {
+    --background: 40 30% 97%;
+    --foreground: 222 30% 10%;
+    --muted: 40 20% 90%;
+    --muted-foreground: 222 12% 38%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 30% 10%;
+    --border: 40 16% 84%;
+  }
+
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: rgba(231, 183, 101, 0.28);
+    color: hsl(var(--foreground));
+  }
+
+  /* Eleganta scrollbars */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(231, 183, 101, 0.25);
+    border-radius: 999px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(231, 183, 101, 0.45);
+    background-clip: content-box;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* Glassmorphism-kort */
+  .glass {
+    background: linear-gradient(
+      160deg,
+      rgba(255, 255, 255, 0.06),
+      rgba(255, 255, 255, 0.02)
+    );
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+
+  .light .glass {
+    background: linear-gradient(
+      160deg,
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.6)
+    );
+    border: 1px solid rgba(0, 0, 0, 0.06);
+  }
+
+  /* Guldig texthighlight */
+  .text-gold-gradient {
+    background: linear-gradient(120deg, #f6e6c5 0%, #e7b765 50%, #c98a28 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+
+  /* Tunn guldlinje-divider */
+  .hairline {
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(231, 183, 101, 0.4),
+      transparent
+    );
+  }
+
+  /* Grain/noise-overlay för premiumkänsla */
+  .noise::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.04;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+}

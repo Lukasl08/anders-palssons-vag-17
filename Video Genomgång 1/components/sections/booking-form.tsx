@@ -10,6 +10,7 @@ import { Select } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
 import { Reveal } from "@/components/ui/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
+import { Embers } from "@/components/fx/embers";
 import { customerTypes } from "@/lib/content";
 import { siteConfig } from "@/lib/site.config";
 
@@ -91,8 +92,9 @@ export function BookingForm() {
 
   return (
     <section id="boka" className="relative overflow-hidden py-24 sm:py-32">
-      <div className="pointer-events-none absolute inset-0 bg-radial-fade" />
-      <div className="container relative grid gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
+      <Embers className="z-0 opacity-40" density={32} />
+      <div className="pointer-events-none absolute inset-0 z-0 bg-ember-fade opacity-60" />
+      <div className="container relative z-10 grid gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
         {/* Vänster: säljande text */}
         <Reveal className="lg:sticky lg:top-28">
           <SectionHeading

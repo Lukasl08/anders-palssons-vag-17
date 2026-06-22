@@ -1,33 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#10141b"/>
-      <stop offset="1" stop-color="#1c1208"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#140a05"/>
+      <stop offset="0.55" stop-color="#0c0805"/>
+      <stop offset="1" stop-color="#080709"/>
     </linearGradient>
     <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#e9edf2"/>
+      <stop offset="0" stop-color="#eef1f5"/>
       <stop offset="0.5" stop-color="#aab4c0"/>
-      <stop offset="1" stop-color="#7d8794"/>
+      <stop offset="1" stop-color="#79838f"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0.5" cy="0.4" r="0.6">
-      <stop offset="0" stop-color="#E7B765" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#E7B765" stop-opacity="0"/>
+    <linearGradient id="hotedge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff3d6"/>
+      <stop offset="0.5" stop-color="#ff8a2b"/>
+      <stop offset="1" stop-color="#f2480c"/>
+    </linearGradient>
+    <radialGradient id="forge" cx="0.5" cy="1" r="0.75">
+      <stop offset="0" stop-color="#ff6a1a" stop-opacity="0.5"/>
+      <stop offset="0.4" stop-color="#f2480c" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#f2480c" stop-opacity="0"/>
     </radialGradient>
+    <radialGradient id="topglow" cx="0.5" cy="0.1" r="0.6">
+      <stop offset="0" stop-color="#FF8A2B" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FF8A2B" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="6"/></filter>
   </defs>
   <rect width="1200" height="900" fill="url(#bg)"/>
-  <rect width="1200" height="900" fill="url(#glow)"/>
+  <rect width="1200" height="900" fill="url(#forge)"/>
+  <rect width="1200" height="900" fill="url(#topglow)"/>
+  <circle cx="397" cy="380" r="4.3" fill="#ff9a3c" opacity="0.53"/><circle cx="790" cy="402" r="4.4" fill="#ff9a3c" opacity="0.56"/><circle cx="452" cy="540" r="4.3" fill="#ff9a3c" opacity="0.73"/><circle cx="435" cy="631" r="3.4" fill="#ff9a3c" opacity="0.31"/><circle cx="1079" cy="689" r="4.0" fill="#ff9a3c" opacity="0.40"/><circle cx="282" cy="442" r="3.9" fill="#ff9a3c" opacity="0.67"/><circle cx="961" cy="459" r="2.1" fill="#ff9a3c" opacity="0.73"/><circle cx="124" cy="688" r="2.8" fill="#ff9a3c" opacity="0.61"/><circle cx="334" cy="588" r="1.1" fill="#ff9a3c" opacity="0.53"/><circle cx="376" cy="264" r="2.6" fill="#ff9a3c" opacity="0.40"/><circle cx="1124" cy="797" r="2.9" fill="#ff9a3c" opacity="0.41"/><circle cx="209" cy="779" r="1.6" fill="#ff9a3c" opacity="0.69"/><circle cx="680" cy="448" r="3.7" fill="#ff9a3c" opacity="0.32"/><circle cx="80" cy="818" r="3.4" fill="#ff9a3c" opacity="0.78"/><circle cx="705" cy="815" r="4.3" fill="#ff9a3c" opacity="0.37"/><circle cx="273" cy="809" r="4.3" fill="#ff9a3c" opacity="0.87"/><circle cx="192" cy="549" r="2.9" fill="#ff9a3c" opacity="0.33"/><circle cx="224" cy="494" r="1.1" fill="#ff9a3c" opacity="0.56"/><circle cx="1155" cy="548" r="3.2" fill="#ff9a3c" opacity="0.68"/><circle cx="1059" cy="392" r="3.9" fill="#ff9a3c" opacity="0.66"/><circle cx="765" cy="819" r="1.2" fill="#ff9a3c" opacity="0.46"/><circle cx="526" cy="665" r="2.8" fill="#ff9a3c" opacity="0.72"/><circle cx="1082" cy="746" r="1.6" fill="#ff9a3c" opacity="0.37"/><circle cx="729" cy="388" r="3.6" fill="#ff9a3c" opacity="0.46"/><circle cx="386" cy="360" r="1.9" fill="#ff9a3c" opacity="0.81"/><circle cx="1060" cy="811" r="1.9" fill="#ff9a3c" opacity="0.45"/><circle cx="914" cy="801" r="3.4" fill="#ff9a3c" opacity="0.39"/><circle cx="334" cy="632" r="2.7" fill="#ff9a3c" opacity="0.75"/><circle cx="594" cy="387" r="3.6" fill="#ff9a3c" opacity="0.71"/><circle cx="922" cy="658" r="3.2" fill="#ff9a3c" opacity="0.62"/><circle cx="1172" cy="682" r="4.2" fill="#ff9a3c" opacity="0.33"/><circle cx="483" cy="474" r="2.1" fill="#ff9a3c" opacity="0.35"/><circle cx="352" cy="360" r="1.6" fill="#ff9a3c" opacity="0.36"/><circle cx="98" cy="310" r="1.7" fill="#ff9a3c" opacity="0.55"/><circle cx="328" cy="273" r="3.2" fill="#ff9a3c" opacity="0.37"/><circle cx="5" cy="307" r="1.1" fill="#ff9a3c" opacity="0.61"/><circle cx="313" cy="516" r="1.0" fill="#ff9a3c" opacity="0.62"/><circle cx="928" cy="782" r="2.2" fill="#ff9a3c" opacity="0.56"/>
+  <circle cx="1019" cy="300" r="2.0" fill="#ffd9a8" opacity="0.41"/><circle cx="1151" cy="296" r="3.9" fill="#ffd9a8" opacity="0.68"/><circle cx="982" cy="399" r="2.9" fill="#ffd9a8" opacity="0.85"/><circle cx="986" cy="293" r="3.8" fill="#ffd9a8" opacity="0.89"/><circle cx="793" cy="770" r="1.4" fill="#ffd9a8" opacity="0.73"/><circle cx="653" cy="666" r="3.3" fill="#ffd9a8" opacity="0.45"/><circle cx="109" cy="797" r="2.4" fill="#ffd9a8" opacity="0.74"/><circle cx="1056" cy="489" r="1.2" fill="#ffd9a8" opacity="0.89"/><circle cx="813" cy="511" r="3.2" fill="#ffd9a8" opacity="0.69"/><circle cx="387" cy="412" r="3.6" fill="#ffd9a8" opacity="0.37"/><circle cx="342" cy="452" r="1.9" fill="#ffd9a8" opacity="0.36"/><circle cx="1061" cy="333" r="1.5" fill="#ffd9a8" opacity="0.77"/><circle cx="221" cy="738" r="2.7" fill="#ffd9a8" opacity="0.79"/><circle cx="649" cy="459" r="2.5" fill="#ffd9a8" opacity="0.74"/>
   
-  <g transform="translate(600 470) scale(2.1)">
+  <g transform="translate(600 460) scale(2.1)">
     <path d="M-120 30 L90 -28 Q120 -34 120 -10 Q120 12 92 18 L-110 50 Z"
-      fill="url(#steel)" stroke="#E7B765" stroke-width="2" />
+            fill="none" stroke="url(#hotedge)" stroke-width="10" opacity="0.85"
+            filter="url(#soft)"/>
+    <path d="M-120 30 L90 -28 Q120 -34 120 -10 Q120 12 92 18 L-110 50 Z"
+      fill="url(#steel)" stroke="#ffb066"
+      stroke-width="2" />
     <path d="M-120 30 L90 -28 Q120 -34 120 -10"
-      fill="none" stroke="#ffffff"
-      stroke-width="1.5" opacity="0.9" />
-    <rect x="-180" y="20" width="70" height="26" rx="10" fill="#2a1d12" />
+      fill="none" stroke="#fff3e0"
+      stroke-width="1.6" opacity="0.95" />
+    <rect x="-180" y="20" width="70" height="26" rx="10" fill="#241712" />
     <rect x="-180" y="20" width="70" height="13" rx="10" fill="#3a2a1a" />
   </g>
-  <text x="600" y="760" text-anchor="middle" font-family="Georgia, serif"
-    font-size="54" fill="#f4ead6" opacity="0.92">Professionell knivslipning</text>
-  <text x="600" y="812" text-anchor="middle" font-family="Arial, sans-serif"
-    font-size="26" fill="#c9b48f" opacity="0.8">Rakbladsvass egg – platshållarbild</text>
+  <text x="600" y="770" text-anchor="middle" font-family="Georgia, serif"
+    font-size="56" fill="#f6ead6" opacity="0.94">Glödhett hantverk</text>
+  <text x="600" y="824" text-anchor="middle" font-family="Arial, sans-serif"
+    font-size="26" fill="#ffb98a" opacity="0.85">Rakbladsvass egg – platshållarbild</text>
 </svg>

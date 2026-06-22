@@ -56,7 +56,7 @@ export function Services() {
           {/* CTA-kort */}
           <Reveal
             delayIndex={services.length}
-            className="relative flex h-full flex-col justify-between overflow-hidden rounded-2xl bg-gold-gradient p-7 text-black shadow-glow"
+            className="relative flex h-full flex-col justify-between overflow-hidden rounded-2xl bg-flame-gradient p-7 text-black shadow-ember"
           >
             <div>
               <h3 className="font-display text-xl font-semibold">

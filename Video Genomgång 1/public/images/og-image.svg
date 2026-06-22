@@ -1,33 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0c0f14"/>
-      <stop offset="1" stop-color="#201405"/>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#1a0d06"/>
+      <stop offset="0.6" stop-color="#0d0805"/>
+      <stop offset="1" stop-color="#070608"/>
     </linearGradient>
-    <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#e9edf2"/>
-      <stop offset="0.5" stop-color="#aab4c0"/>
-      <stop offset="1" stop-color="#7d8794"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0.5" cy="0.4" r="0.6">
-      <stop offset="0" stop-color="#E7B765" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#E7B765" stop-opacity="0"/>
+    <radialGradient id="fire" cx="0.5" cy="0.92" r="0.7">
+      <stop offset="0" stop-color="#ffd9a8" stop-opacity="0.9"/>
+      <stop offset="0.25" stop-color="#ff8a2b" stop-opacity="0.7"/>
+      <stop offset="0.6" stop-color="#f2480c" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#f2480c" stop-opacity="0"/>
     </radialGradient>
   </defs>
-  <rect width="1200" height="900" fill="url(#bg)"/>
-  <rect width="1200" height="900" fill="url(#glow)"/>
-  
-  <g transform="translate(600 470) scale(2.1)">
-    <path d="M-120 30 L90 -28 Q120 -34 120 -10 Q120 12 92 18 L-110 50 Z"
-      fill="url(#steel)" stroke="#E7B765" stroke-width="2" />
-    <path d="M-120 30 L90 -28 Q120 -34 120 -10"
-      fill="none" stroke="#ffffff"
-      stroke-width="1.5" opacity="0.9" />
-    <rect x="-180" y="20" width="70" height="26" rx="10" fill="#2a1d12" />
-    <rect x="-180" y="20" width="70" height="13" rx="10" fill="#3a2a1a" />
-  </g>
-  <text x="600" y="760" text-anchor="middle" font-family="Georgia, serif"
-    font-size="54" fill="#f4ead6" opacity="0.92">Knivslipning</text>
-  <text x="600" y="812" text-anchor="middle" font-family="Arial, sans-serif"
-    font-size="26" fill="#c9b48f" opacity="0.8">Snabb service · Professionellt resultat</text>
+  <rect width="1200" height="900" fill="url(#bg2)"/>
+  <ellipse cx="600" cy="900" rx="520" ry="360" fill="url(#fire)"/>
+  <circle cx="493" cy="783" r="2.8" fill="#ff9a3c" opacity="0.79"/><circle cx="661" cy="478" r="1.1" fill="#ff9a3c" opacity="0.39"/><circle cx="1180" cy="518" r="1.4" fill="#ff9a3c" opacity="0.75"/><circle cx="612" cy="763" r="1.3" fill="#ff9a3c" opacity="0.68"/><circle cx="943" cy="517" r="1.7" fill="#ff9a3c" opacity="0.49"/><circle cx="247" cy="661" r="4.1" fill="#ff9a3c" opacity="0.78"/><circle cx="553" cy="788" r="3.2" fill="#ff9a3c" opacity="0.87"/><circle cx="914" cy="334" r="3.1" fill="#ff9a3c" opacity="0.84"/><circle cx="869" cy="715" r="3.6" fill="#ff9a3c" opacity="0.78"/><circle cx="1116" cy="656" r="3.8" fill="#ff9a3c" opacity="0.58"/><circle cx="173" cy="329" r="3.9" fill="#ff9a3c" opacity="0.63"/><circle cx="247" cy="480" r="2.1" fill="#ff9a3c" opacity="0.57"/><circle cx="702" cy="769" r="1.9" fill="#ff9a3c" opacity="0.80"/><circle cx="722" cy="301" r="3.0" fill="#ff9a3c" opacity="0.87"/><circle cx="381" cy="356" r="2.1" fill="#ff9a3c" opacity="0.53"/><circle cx="110" cy="327" r="3.4" fill="#ff9a3c" opacity="0.74"/><circle cx="959" cy="651" r="2.7" fill="#ff9a3c" opacity="0.75"/><circle cx="871" cy="743" r="2.3" fill="#ff9a3c" opacity="0.47"/><circle cx="140" cy="329" r="3.6" fill="#ff9a3c" opacity="0.78"/><circle cx="486" cy="579" r="2.0" fill="#ff9a3c" opacity="0.67"/><circle cx="115" cy="842" r="1.7" fill="#ff9a3c" opacity="0.78"/><circle cx="392" cy="576" r="1.4" fill="#ff9a3c" opacity="0.73"/><circle cx="101" cy="485" r="3.0" fill="#ff9a3c" opacity="0.44"/><circle cx="116" cy="451" r="2.4" fill="#ff9a3c" opacity="0.68"/><circle cx="467" cy="267" r="2.5" fill="#ff9a3c" opacity="0.40"/><circle cx="605" cy="769" r="1.3" fill="#ff9a3c" opacity="0.45"/><circle cx="472" cy="572" r="3.5" fill="#ff9a3c" opacity="0.55"/><circle cx="1163" cy="402" r="2.3" fill="#ff9a3c" opacity="0.77"/><circle cx="398" cy="630" r="2.4" fill="#ff9a3c" opacity="0.51"/><circle cx="783" cy="403" r="3.6" fill="#ff9a3c" opacity="0.80"/><circle cx="882" cy="782" r="3.1" fill="#ff9a3c" opacity="0.46"/><circle cx="280" cy="469" r="1.9" fill="#ff9a3c" opacity="0.41"/><circle cx="651" cy="346" r="1.6" fill="#ff9a3c" opacity="0.63"/><circle cx="423" cy="606" r="3.8" fill="#ff9a3c" opacity="0.46"/><circle cx="1051" cy="686" r="2.1" fill="#ff9a3c" opacity="0.56"/><circle cx="873" cy="800" r="3.4" fill="#ff9a3c" opacity="0.44"/><circle cx="587" cy="275" r="3.2" fill="#ff9a3c" opacity="0.57"/><circle cx="1110" cy="480" r="1.7" fill="#ff9a3c" opacity="0.75"/><circle cx="1051" cy="365" r="4.3" fill="#ff9a3c" opacity="0.62"/><circle cx="973" cy="788" r="3.7" fill="#ff9a3c" opacity="0.59"/><circle cx="59" cy="253" r="3.2" fill="#ff9a3c" opacity="0.79"/><circle cx="785" cy="641" r="3.1" fill="#ff9a3c" opacity="0.38"/><circle cx="1180" cy="746" r="4.0" fill="#ff9a3c" opacity="0.32"/><circle cx="1097" cy="403" r="1.8" fill="#ff9a3c" opacity="0.47"/><circle cx="874" cy="829" r="2.2" fill="#ff9a3c" opacity="0.72"/><circle cx="810" cy="548" r="3.0" fill="#ff9a3c" opacity="0.76"/><circle cx="223" cy="731" r="3.4" fill="#ff9a3c" opacity="0.79"/><circle cx="919" cy="727" r="3.8" fill="#ff9a3c" opacity="0.84"/><circle cx="663" cy="594" r="3.1" fill="#ff9a3c" opacity="0.52"/><circle cx="638" cy="437" r="3.3" fill="#ff9a3c" opacity="0.36"/><circle cx="520" cy="736" r="3.4" fill="#ff9a3c" opacity="0.53"/><circle cx="337" cy="685" r="3.1" fill="#ff9a3c" opacity="0.58"/><circle cx="742" cy="520" r="3.8" fill="#ff9a3c" opacity="0.77"/><circle cx="476" cy="657" r="3.3" fill="#ff9a3c" opacity="0.80"/><circle cx="634" cy="621" r="1.7" fill="#ff9a3c" opacity="0.76"/><circle cx="135" cy="782" r="3.8" fill="#ff9a3c" opacity="0.63"/><circle cx="387" cy="289" r="2.2" fill="#ff9a3c" opacity="0.85"/><circle cx="1153" cy="800" r="1.4" fill="#ff9a3c" opacity="0.85"/><circle cx="817" cy="421" r="2.2" fill="#ff9a3c" opacity="0.33"/><circle cx="1054" cy="631" r="2.6" fill="#ff9a3c" opacity="0.48"/><circle cx="294" cy="425" r="4.4" fill="#ff9a3c" opacity="0.64"/><circle cx="1188" cy="438" r="1.1" fill="#ff9a3c" opacity="0.88"/><circle cx="877" cy="285" r="3.2" fill="#ff9a3c" opacity="0.69"/><circle cx="57" cy="493" r="2.7" fill="#ff9a3c" opacity="0.55"/><circle cx="848" cy="632" r="3.1" fill="#ff9a3c" opacity="0.87"/><circle cx="655" cy="250" r="2.9" fill="#ff9a3c" opacity="0.67"/><circle cx="43" cy="807" r="2.0" fill="#ff9a3c" opacity="0.37"/><circle cx="596" cy="805" r="3.4" fill="#ff9a3c" opacity="0.70"/><circle cx="1189" cy="327" r="4.1" fill="#ff9a3c" opacity="0.83"/><circle cx="1051" cy="564" r="1.1" fill="#ff9a3c" opacity="0.51"/>
+  <circle cx="923" cy="497" r="3.4" fill="#ffe2bd" opacity="0.75"/><circle cx="80" cy="820" r="3.7" fill="#ffe2bd" opacity="0.85"/><circle cx="255" cy="421" r="2.3" fill="#ffe2bd" opacity="0.83"/><circle cx="809" cy="760" r="2.4" fill="#ffe2bd" opacity="0.52"/><circle cx="929" cy="342" r="3.7" fill="#ffe2bd" opacity="0.63"/><circle cx="688" cy="447" r="3.1" fill="#ffe2bd" opacity="0.34"/><circle cx="517" cy="468" r="1.3" fill="#ffe2bd" opacity="0.60"/><circle cx="266" cy="842" r="4.4" fill="#ffe2bd" opacity="0.66"/><circle cx="278" cy="384" r="4.3" fill="#ffe2bd" opacity="0.43"/><circle cx="847" cy="620" r="2.3" fill="#ffe2bd" opacity="0.79"/><circle cx="93" cy="320" r="4.5" fill="#ffe2bd" opacity="0.74"/><circle cx="1023" cy="633" r="4.5" fill="#ffe2bd" opacity="0.30"/><circle cx="199" cy="417" r="4.4" fill="#ffe2bd" opacity="0.90"/><circle cx="8" cy="376" r="2.9" fill="#ffe2bd" opacity="0.66"/><circle cx="123" cy="392" r="2.6" fill="#ffe2bd" opacity="0.35"/><circle cx="574" cy="258" r="2.9" fill="#ffe2bd" opacity="0.71"/><circle cx="812" cy="810" r="2.0" fill="#ffe2bd" opacity="0.82"/><circle cx="779" cy="663" r="4.5" fill="#ffe2bd" opacity="0.37"/><circle cx="370" cy="543" r="3.6" fill="#ffe2bd" opacity="0.64"/><circle cx="905" cy="821" r="4.1" fill="#ffe2bd" opacity="0.43"/><circle cx="190" cy="644" r="2.0" fill="#ffe2bd" opacity="0.77"/><circle cx="389" cy="473" r="1.8" fill="#ffe2bd" opacity="0.48"/><circle cx="1087" cy="810" r="4.4" fill="#ffe2bd" opacity="0.48"/><circle cx="358" cy="737" r="4.4" fill="#ffe2bd" opacity="0.75"/><circle cx="231" cy="447" r="3.4" fill="#ffe2bd" opacity="0.63"/><circle cx="958" cy="577" r="2.0" fill="#ffe2bd" opacity="0.78"/><circle cx="880" cy="741" r="3.6" fill="#ffe2bd" opacity="0.70"/><circle cx="694" cy="266" r="3.7" fill="#ffe2bd" opacity="0.88"/>
+  <text x="600" y="430" text-anchor="middle" font-family="Georgia, serif"
+    font-size="60" fill="#f6ead6" opacity="0.95">Professionell knivslipning</text>
+  <text x="600" y="486" text-anchor="middle" font-family="Arial, sans-serif"
+    font-size="26" fill="#ffb98a" opacity="0.85">Snabb service · Eldigt resultat</text>
 </svg>

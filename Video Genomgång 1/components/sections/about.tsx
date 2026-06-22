@@ -6,7 +6,7 @@ import { Award, Crosshair, Gem, Headset } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { siteConfig } from "@/lib/site.config";
-import { aboutImage } from "@/lib/content";
+import { aboutImage, actionImage } from "@/lib/content";
 
 const pillars = [
   {
@@ -47,6 +47,25 @@ export function About() {
             />
             <div className="absolute inset-0 bg-gradient-to-tr from-black/50 to-transparent" />
           </div>
+
+          {/* Action-bild som överlappar (gnistor i verkstaden) */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.3 }}
+            className="absolute -bottom-8 -left-4 hidden w-40 overflow-hidden rounded-2xl border border-white/15 shadow-card sm:block"
+          >
+            <div className="relative aspect-square">
+              <Image
+                src={actionImage}
+                alt="Gnistor sprutar vid slipning"
+                fill
+                sizes="160px"
+                className="object-cover"
+              />
+            </div>
+          </motion.div>
 
           {/* Erfarenhetsbadge */}
           <motion.div

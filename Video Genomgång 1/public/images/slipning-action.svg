@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#140a05"/>
+      <stop offset="0.55" stop-color="#0c0805"/>
+      <stop offset="1" stop-color="#080709"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef1f5"/>
+      <stop offset="0.5" stop-color="#aab4c0"/>
+      <stop offset="1" stop-color="#79838f"/>
+    </linearGradient>
+    <linearGradient id="hotedge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff3d6"/>
+      <stop offset="0.5" stop-color="#ff8a2b"/>
+      <stop offset="1" stop-color="#f2480c"/>
+    </linearGradient>
+    <radialGradient id="forge" cx="0.5" cy="1" r="0.75">
+      <stop offset="0" stop-color="#ff6a1a" stop-opacity="0.5"/>
+      <stop offset="0.4" stop-color="#f2480c" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#f2480c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="topglow" cx="0.5" cy="0.1" r="0.6">
+      <stop offset="0" stop-color="#FF8A2B" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FF8A2B" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect width="1200" height="900" fill="url(#forge)"/>
+  <rect width="1200" height="900" fill="url(#topglow)"/>
+  <circle cx="1067" cy="802" r="1.2" fill="#ff9a3c" opacity="0.54"/><circle cx="1087" cy="333" r="2.3" fill="#ff9a3c" opacity="0.60"/><circle cx="746" cy="388" r="1.4" fill="#ff9a3c" opacity="0.86"/><circle cx="475" cy="360" r="2.7" fill="#ff9a3c" opacity="0.47"/><circle cx="124" cy="684" r="2.1" fill="#ff9a3c" opacity="0.48"/><circle cx="36" cy="776" r="1.7" fill="#ff9a3c" opacity="0.80"/><circle cx="505" cy="362" r="2.9" fill="#ff9a3c" opacity="0.51"/><circle cx="851" cy="612" r="1.3" fill="#ff9a3c" opacity="0.40"/><circle cx="480" cy="274" r="4.5" fill="#ff9a3c" opacity="0.52"/><circle cx="757" cy="608" r="4.2" fill="#ff9a3c" opacity="0.46"/><circle cx="466" cy="517" r="2.4" fill="#ff9a3c" opacity="0.77"/><circle cx="481" cy="484" r="1.7" fill="#ff9a3c" opacity="0.41"/><circle cx="832" cy="299" r="1.8" fill="#ff9a3c" opacity="0.73"/><circle cx="970" cy="801" r="4.1" fill="#ff9a3c" opacity="0.79"/><circle cx="837" cy="604" r="2.8" fill="#ff9a3c" opacity="0.88"/><circle cx="328" cy="434" r="1.6" fill="#ff9a3c" opacity="0.51"/><circle cx="763" cy="662" r="1.8" fill="#ff9a3c" opacity="0.84"/><circle cx="1148" cy="436" r="2.9" fill="#ff9a3c" opacity="0.53"/><circle cx="47" cy="814" r="2.4" fill="#ff9a3c" opacity="0.79"/><circle cx="645" cy="501" r="1.3" fill="#ff9a3c" opacity="0.75"/><circle cx="1016" cy="379" r="4.4" fill="#ff9a3c" opacity="0.36"/><circle cx="788" cy="639" r="3.1" fill="#ff9a3c" opacity="0.79"/><circle cx="216" cy="718" r="1.4" fill="#ff9a3c" opacity="0.89"/><circle cx="38" cy="833" r="2.7" fill="#ff9a3c" opacity="0.77"/><circle cx="952" cy="307" r="2.6" fill="#ff9a3c" opacity="0.30"/><circle cx="275" cy="513" r="1.0" fill="#ff9a3c" opacity="0.48"/><circle cx="216" cy="398" r="3.6" fill="#ff9a3c" opacity="0.35"/><circle cx="138" cy="821" r="3.0" fill="#ff9a3c" opacity="0.32"/><circle cx="424" cy="285" r="2.5" fill="#ff9a3c" opacity="0.52"/><circle cx="1150" cy="674" r="2.4" fill="#ff9a3c" opacity="0.71"/><circle cx="345" cy="778" r="3.3" fill="#ff9a3c" opacity="0.65"/><circle cx="262" cy="436" r="1.1" fill="#ff9a3c" opacity="0.80"/><circle cx="39" cy="261" r="1.5" fill="#ff9a3c" opacity="0.45"/><circle cx="1175" cy="580" r="2.4" fill="#ff9a3c" opacity="0.50"/><circle cx="588" cy="764" r="2.7" fill="#ff9a3c" opacity="0.52"/><circle cx="84" cy="759" r="3.1" fill="#ff9a3c" opacity="0.57"/><circle cx="1028" cy="627" r="2.4" fill="#ff9a3c" opacity="0.85"/><circle cx="1003" cy="469" r="2.6" fill="#ff9a3c" opacity="0.69"/>
+  <circle cx="489" cy="722" r="2.4" fill="#ffd9a8" opacity="0.41"/><circle cx="248" cy="827" r="1.9" fill="#ffd9a8" opacity="0.72"/><circle cx="77" cy="848" r="3.5" fill="#ffd9a8" opacity="0.38"/><circle cx="1026" cy="622" r="3.1" fill="#ffd9a8" opacity="0.44"/><circle cx="1038" cy="764" r="3.0" fill="#ffd9a8" opacity="0.81"/><circle cx="407" cy="400" r="1.0" fill="#ffd9a8" opacity="0.57"/><circle cx="853" cy="700" r="3.2" fill="#ffd9a8" opacity="0.52"/><circle cx="583" cy="413" r="3.2" fill="#ffd9a8" opacity="0.68"/><circle cx="959" cy="797" r="3.2" fill="#ffd9a8" opacity="0.68"/><circle cx="768" cy="756" r="1.6" fill="#ffd9a8" opacity="0.44"/><circle cx="883" cy="772" r="1.3" fill="#ffd9a8" opacity="0.73"/><circle cx="134" cy="638" r="1.6" fill="#ffd9a8" opacity="0.49"/><circle cx="372" cy="590" r="4.2" fill="#ffd9a8" opacity="0.60"/><circle cx="339" cy="443" r="3.2" fill="#ffd9a8" opacity="0.75"/>
+  
+  <g transform="translate(600 460) scale(2.1)">
+    <path d="M-120 30 L90 -28 Q120 -34 120 -10 Q120 12 92 18 L-110 50 Z"
+            fill="none" stroke="url(#hotedge)" stroke-width="10" opacity="0.85"
+            filter="url(#soft)"/>
+    <path d="M-120 30 L90 -28 Q120 -34 120 -10 Q120 12 92 18 L-110 50 Z"
+      fill="url(#steel)" stroke="#ffb066"
+      stroke-width="2" />
+    <path d="M-120 30 L90 -28 Q120 -34 120 -10"
+      fill="none" stroke="#fff3e0"
+      stroke-width="1.6" opacity="0.95" />
+    <rect x="-180" y="20" width="70" height="26" rx="10" fill="#241712" />
+    <rect x="-180" y="20" width="70" height="13" rx="10" fill="#3a2a1a" />
+  </g>
+  <text x="600" y="770" text-anchor="middle" font-family="Georgia, serif"
+    font-size="56" fill="#f6ead6" opacity="0.94">Gnistor flyger</text>
+  <text x="600" y="824" text-anchor="middle" font-family="Arial, sans-serif"
+    font-size="26" fill="#ffb98a" opacity="0.85">Slipning i verkstaden – platshållarbild</text>
+</svg>

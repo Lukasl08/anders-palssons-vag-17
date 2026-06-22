@@ -110,6 +110,45 @@
     color: transparent;
   }
 
+  /* Eldig texthighlight med levande gradient-rörelse */
+  .text-flame-gradient {
+    background: linear-gradient(
+      120deg,
+      #ffd9a8 0%,
+      #ff8a2b 30%,
+      #f2480c 55%,
+      #ffb066 80%,
+      #ff8a2b 100%
+    );
+    background-size: 220% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    animation: gradient-pan 6s ease infinite;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .text-flame-gradient {
+      animation: none;
+    }
+  }
+
+  /* Mjuk glödande eld-aura runt ett element */
+  .ember-aura {
+    position: relative;
+  }
+  .ember-aura::before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    border-radius: inherit;
+    background: linear-gradient(135deg, #ff8a2b, #f2480c, #e7b765);
+    filter: blur(14px);
+    opacity: 0.45;
+    z-index: -1;
+  }
+
   /* Tunn guldlinje-divider */
   .hairline {
     background: linear-gradient(

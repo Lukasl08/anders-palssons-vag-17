@@ -3,7 +3,9 @@ import { ScrollProgress } from "@/components/scroll-progress";
 import { BackToTop } from "@/components/back-to-top";
 import { LoadingScreen } from "@/components/loading-screen";
 import { Hero } from "@/components/sections/hero";
+import { Marquee } from "@/components/sections/marquee";
 import { About } from "@/components/sections/about";
+import { MobileService } from "@/components/sections/mobile-service";
 import { Services } from "@/components/sections/services";
 import { Process } from "@/components/sections/process";
 import { Benefits } from "@/components/sections/benefits";
@@ -22,7 +24,9 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <Marquee />
         <About />
+        <MobileService />
         <Services />
         <Process />
         <Benefits />

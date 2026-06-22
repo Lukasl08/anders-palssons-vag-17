@@ -270,6 +270,9 @@ export const galleryImages: GalleryItem[] = [
 /** Byt ut dessa mot egna foton i /public/images/. */
 export const heroImage = "/images/hero-knivslipning.svg";
 export const aboutImage = "/images/om-oss-verkstad.svg";
+export const mobileServiceImage = "/images/mobil-service.svg";
+export const actionImage = "/images/slipning-action.svg";
+export const steakImage = "/images/steak.svg";
 
 /* --------------------------- Kundtyper (formulär) ------------------------- */
 export const customerTypes = [

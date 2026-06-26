@@ -6,6 +6,12 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev"],
       "port": 3000
+    },
+    {
+      "name": "dalabadet",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "4399", "--directory", "/Users/macbookpro/Desktop/Dalabadet Beachvolley Cup"],
+      "port": 4399
     }
   ]
 }

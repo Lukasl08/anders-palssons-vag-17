@@ -1,0 +1,394 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]: C
+    - generic [ref=e6]: C THE BARBER
+  - banner [ref=e8]:
+    - generic [ref=e9]:
+      - link "C The Barber, startsida" [ref=e10] [cursor=pointer]:
+        - /url: "#hero"
+        - generic [ref=e11]: C
+        - generic [ref=e12]: THE BARBER
+      - navigation "Huvudmeny" [ref=e13]:
+        - link "Om oss" [ref=e14] [cursor=pointer]:
+          - /url: "#about"
+        - link "Tjänster" [ref=e15] [cursor=pointer]:
+          - /url: "#services"
+        - link "Projekt" [ref=e16] [cursor=pointer]:
+          - /url: "#projects"
+        - link "Butik" [ref=e17] [cursor=pointer]:
+          - /url: butik.html
+        - link "Kontakt" [ref=e18] [cursor=pointer]:
+          - /url: "#contact"
+        - button "Öppna varukorg" [ref=e19] [cursor=pointer]:
+          - img [ref=e20]
+        - link "Boka tid" [ref=e22] [cursor=pointer]:
+          - /url: "#booking"
+  - main [ref=e23]:
+    - generic [ref=e26]:
+      - img [ref=e27]
+      - generic [ref=e31]:
+        - paragraph [ref=e32]: En kund i taget
+        - heading "Skönheten sitter i detaljerna. Frisör och barber i Svedala, på Storgatan. Herrklippning, fade, skägg och barnklippning hos C The Barber." [level=1] [ref=e33]:
+          - text: Skönheten sitter
+          - text: i detaljerna.
+          - generic [ref=e34]: Frisör och barber i Svedala, på Storgatan. Herrklippning, fade, skägg och barnklippning hos C The Barber.
+        - paragraph [ref=e35]: Frisör & barber i Svedala, på Storgatan · Herr, skägg & barnklippning
+        - generic [ref=e36]:
+          - link "Boka tid" [ref=e37] [cursor=pointer]:
+            - /url: "#booking"
+            - text: Boka tid
+            - img [ref=e39]
+          - link "Behandlingar" [ref=e41] [cursor=pointer]:
+            - /url: "#services"
+            - text: Behandlingar
+            - img [ref=e43]
+      - link "Skrolla ner" [ref=e45] [cursor=pointer]:
+        - /url: "#about"
+        - img [ref=e46]:
+          - generic [ref=e47]: · SKROLLA NER · SKROLLA NER
+        - img [ref=e49]
+    - region "Galleri av klippningar" [ref=e51]
+    - generic [ref=e89]:
+      - img [ref=e93]
+      - img [ref=e102]
+      - img [ref=e107]
+      - img [ref=e114]
+      - generic [ref=e117]:
+        - heading "Om mig" [level=2] [ref=e118]
+        - paragraph [ref=e119]: Jag heter Casper och är frisör och barber i Svedala, med stolen på Storgatan. Jag har klippt i över fem år och fokuserar på fades, skägg och klassiska frisyrer, allt från herrklippning till barnklippning, men mest av allt på personen i stolen. Jag tar en kund i taget och ger varje klippning den tid den förtjänar. Vill du boka direkt hittar du mig enkelt online. Låt oss skapa något du bär med stolthet.
+        - link "Boka tid" [ref=e120] [cursor=pointer]:
+          - /url: "#booking"
+    - generic [ref=e122]:
+      - generic [ref=e123]:
+        - generic [ref=e124]:
+          - paragraph [ref=e125]: Varför Casper
+          - heading "Så jobbar jag." [level=2] [ref=e126]
+        - paragraph [ref=e127]: Det är inte priset eller utbudet som gör skillnaden. Det är hur du blir omhändertagen, från det att du sätter dig tills du går.
+      - generic [ref=e128]:
+        - article [ref=e129]:
+          - generic [ref=e130]: "01"
+          - generic [ref=e131]:
+            - heading "Du får hela mitt fokus" [level=3] [ref=e132]
+            - paragraph [ref=e133]: Jag tar en kund i taget. När du sitter i stolen är det bara du och din klippning som gäller, aldrig en kö i bakhuvudet eller en klocka som tickar.
+        - article [ref=e134]:
+          - generic [ref=e135]: "02"
+          - generic [ref=e136]:
+            - heading "Vi hittar rätt tillsammans" [level=3] [ref=e137]
+            - paragraph [ref=e138]: Innan saxen åker fram lyssnar jag på hur du vill ha det och hur din vardag ser ut. Du ska gå härifrån med något som känns som du och som du kan sköta själv hemma.
+        - article [ref=e139]:
+          - generic [ref=e140]: "03"
+          - generic [ref=e141]:
+            - heading "Jag nöjer mig aldrig halvvägs" [level=3] [ref=e142]
+            - paragraph [ref=e143]: Kanter, övergångar och längder finslipas tills allt sitter precis rätt. Det är i de sista detaljerna en klippning går från bra till riktigt bra.
+    - generic [ref=e145]:
+      - generic [ref=e146]:
+        - paragraph [ref=e147]: Behandlingar
+        - heading "Tjänster" [level=2] [ref=e148]
+      - generic [ref=e149]:
+        - button "Boka Hår / Fade under 10 cm" [ref=e150] [cursor=pointer]:
+          - generic [ref=e151]: "01"
+          - generic [ref=e152]:
+            - generic [ref=e153]: Hår / Fade under 10 cm
+            - generic [ref=e154]: Precisionsklippning & fade
+          - generic [ref=e155]:
+            - generic [ref=e156]: 45 min
+            - generic [ref=e157]: 250 kr
+            - generic [ref=e158]:
+              - text: Boka
+              - img [ref=e159]
+        - button "Boka Långt hår över 10 cm" [ref=e161] [cursor=pointer]:
+          - generic [ref=e162]: "02"
+          - generic [ref=e163]:
+            - generic [ref=e164]: Långt hår över 10 cm
+            - generic [ref=e165]: Klippning för längre hår
+          - generic [ref=e166]:
+            - generic [ref=e167]: 1 timme
+            - generic [ref=e168]: 300 kr
+            - generic [ref=e169]:
+              - text: Boka
+              - img [ref=e170]
+        - button "Boka Barnklippning (2 till 6 år)" [ref=e172] [cursor=pointer]:
+          - generic [ref=e173]: "03"
+          - generic [ref=e174]:
+            - generic [ref=e175]: Barnklippning (2 till 6 år)
+            - generic [ref=e176]: Lugnt och tryggt för de minsta
+          - generic [ref=e177]:
+            - generic [ref=e178]: 1 timme
+            - generic [ref=e179]: 300 kr
+            - generic [ref=e180]:
+              - text: Boka
+              - img [ref=e181]
+        - button "Boka Klippning + skägg" [ref=e183] [cursor=pointer]:
+          - generic [ref=e184]: "04"
+          - generic [ref=e185]:
+            - generic [ref=e186]: Klippning + skägg
+            - generic [ref=e187]: Hela paketet, i ett svep
+          - generic [ref=e188]:
+            - generic [ref=e189]: 1 timme
+            - generic [ref=e190]: 300 kr
+            - generic [ref=e191]:
+              - text: Boka
+              - img [ref=e192]
+        - button "Boka Skägg" [ref=e194] [cursor=pointer]:
+          - generic [ref=e195]: "05"
+          - generic [ref=e196]:
+            - generic [ref=e197]: Skägg
+            - generic [ref=e198]: Trimning & formning på millimetern
+          - generic [ref=e199]:
+            - generic [ref=e200]: 30 min
+            - generic [ref=e201]: 100 kr
+            - generic [ref=e202]:
+              - text: Boka
+              - img [ref=e203]
+        - button "Boka Schamponering" [ref=e205] [cursor=pointer]:
+          - generic [ref=e206]: "06"
+          - generic [ref=e207]:
+            - generic [ref=e208]: Schamponering
+            - generic [ref=e209]: Tvätt, massage & en nystart
+          - generic [ref=e210]:
+            - generic [ref=e211]: 30 min
+            - generic [ref=e212]: 100 kr
+            - generic [ref=e213]:
+              - text: Boka
+              - img [ref=e214]
+    - generic [ref=e216]:
+      - generic [ref=e218]:
+        - paragraph [ref=e219]: Utvalda resultat
+        - heading "Projekt" [level=2] [ref=e220]
+      - generic [ref=e221]:
+        - article [ref=e223]:
+          - generic [ref=e224]:
+            - generic [ref=e225]: "01"
+            - generic [ref=e226]:
+              - generic [ref=e227]: Stamkund
+              - generic [ref=e228]: Skarp Fade
+            - link "Boka liknande" [ref=e229] [cursor=pointer]:
+              - /url: "#booking"
+              - text: Boka liknande
+              - img [ref=e230]
+          - generic [ref=e232]:
+            - generic [ref=e233]:
+              - img "Skinfade med textur i toppen" [ref=e234]
+              - img "Taper fade från sidan" [ref=e235]
+            - img "Taper med fall" [ref=e236]
+        - article [ref=e238]:
+          - generic [ref=e239]:
+            - generic [ref=e240]: "02"
+            - generic [ref=e241]:
+              - generic [ref=e242]: Signatur
+              - generic [ref=e243]: Skägg & Kontur
+            - link "Boka liknande" [ref=e244] [cursor=pointer]:
+              - /url: "#booking"
+              - text: Boka liknande
+              - img [ref=e245]
+          - generic [ref=e247]:
+            - generic [ref=e248]:
+              - img "Buzz cut med fullskägg" [ref=e249]
+              - img "Skägg med quiff och fade" [ref=e250]
+            - img "Fullskägg med skinfade" [ref=e251]
+        - article [ref=e253]:
+          - generic [ref=e254]:
+            - generic [ref=e255]: "03"
+            - generic [ref=e256]:
+              - generic [ref=e257]: Stil
+              - generic [ref=e258]: Längd & Flow
+            - link "Boka liknande" [ref=e259] [cursor=pointer]:
+              - /url: "#booking"
+              - text: Boka liknande
+              - img [ref=e260]
+          - generic [ref=e262]:
+            - generic [ref=e263]:
+              - img "Quiff med flow" [ref=e264]
+              - img "Texturerad crop" [ref=e265]
+            - img "Texturerad crop bakifrån" [ref=e266]
+    - generic [ref=e268]:
+      - generic [ref=e269]:
+        - generic [ref=e270]:
+          - paragraph [ref=e271]: Butik
+          - heading "Ta hem hantverket." [level=2] [ref=e272]
+        - paragraph [ref=e273]: Samma produkter Casper använder i stolen, för ditt hår och skägg där hemma. Handla direkt på sidan.
+      - generic [ref=e274]:
+        - article [ref=e275] [cursor=pointer]:
+          - generic [ref=e276]:
+            - generic [ref=e277]:
+              - img [ref=e278]
+              - generic [ref=e280]: Matte Clay
+            - button "Lägg i varukorg" [ref=e281]
+          - generic [ref=e282]:
+            - generic [ref=e283]:
+              - generic [ref=e284]: Matte Clay
+              - generic [ref=e285]: Styling
+            - generic [ref=e286]: 199 kr
+        - article [ref=e287] [cursor=pointer]:
+          - generic [ref=e288]:
+            - generic [ref=e289]:
+              - img [ref=e290]
+              - generic [ref=e292]: Skäggolja
+            - button "Lägg i varukorg" [ref=e293]
+          - generic [ref=e294]:
+            - generic [ref=e295]:
+              - generic [ref=e296]: Skäggolja
+              - generic [ref=e297]: Skägg
+            - generic [ref=e298]: 229 kr
+        - article [ref=e299] [cursor=pointer]:
+          - generic [ref=e300]:
+            - generic [ref=e301]:
+              - img [ref=e302]
+              - generic [ref=e304]: Classic Pomade
+            - button "Lägg i varukorg" [ref=e305]
+          - generic [ref=e306]:
+            - generic [ref=e307]:
+              - generic [ref=e308]: Classic Pomade
+              - generic [ref=e309]: Styling
+            - generic [ref=e310]: 219 kr
+      - link "Till butiken" [ref=e312] [cursor=pointer]:
+        - /url: butik.html
+    - generic [ref=e314]:
+      - generic [ref=e315]:
+        - paragraph [ref=e316]: Boka tid
+        - heading "Ta plats i stolen." [level=2] [ref=e317]
+        - paragraph [ref=e318]: Välj behandling, dag och tid. Sen tar jag hand om resten.
+      - generic [ref=e319]:
+        - list "Bokningssteg" [ref=e320]:
+          - listitem [ref=e321]:
+            - generic [ref=e322]: "1"
+            - generic [ref=e323]: Behandling
+          - listitem [ref=e324]:
+            - generic [ref=e325]: "2"
+            - generic [ref=e326]: Datum
+          - listitem [ref=e327]:
+            - generic [ref=e328]: "3"
+            - generic [ref=e329]: Tid
+          - listitem [ref=e330]:
+            - generic [ref=e331]: "4"
+            - generic [ref=e332]: Uppgifter
+          - listitem [ref=e333]:
+            - generic [ref=e334]: "5"
+            - generic [ref=e335]: Bekräfta
+        - generic [ref=e337]:
+          - heading "Vad vill du ha gjort?" [level=3] [ref=e338]
+          - generic [ref=e339]:
+            - button "Hår / Fade under 10 cm 45 min · Precisionsklippning & fade 250 kr" [ref=e340] [cursor=pointer]:
+              - generic [ref=e341]: Hår / Fade under 10 cm 45 min · Precisionsklippning & fade
+              - generic [ref=e342]: 250 kr
+            - button "Långt hår över 10 cm 1 timme · Klippning för längre hår 300 kr" [ref=e343] [cursor=pointer]:
+              - generic [ref=e344]: Långt hår över 10 cm 1 timme · Klippning för längre hår
+              - generic [ref=e345]: 300 kr
+            - button "Barnklippning (2 till 6 år) 1 timme · Lugnt och tryggt för de minsta 300 kr" [ref=e346] [cursor=pointer]:
+              - generic [ref=e347]: Barnklippning (2 till 6 år) 1 timme · Lugnt och tryggt för de minsta
+              - generic [ref=e348]: 300 kr
+            - button "Klippning + skägg 1 timme · Hela paketet, i ett svep 300 kr" [ref=e349] [cursor=pointer]:
+              - generic [ref=e350]: Klippning + skägg 1 timme · Hela paketet, i ett svep
+              - generic [ref=e351]: 300 kr
+            - button "Skägg 30 min · Trimning & formning på millimetern 100 kr" [ref=e352] [cursor=pointer]:
+              - generic [ref=e353]: Skägg 30 min · Trimning & formning på millimetern
+              - generic [ref=e354]: 100 kr
+            - button "Schamponering 30 min · Tvätt, massage & en nystart 100 kr" [ref=e355] [cursor=pointer]:
+              - generic [ref=e356]: Schamponering 30 min · Tvätt, massage & en nystart
+              - generic [ref=e357]: 100 kr
+        - generic [ref=e358]:
+          - button "Tillbaka" [disabled]
+          - button "Nästa" [disabled]
+    - generic [ref=e360]:
+      - paragraph [ref=e361]: En kund i taget
+      - heading "När du är redo finns stolen här." [level=2] [ref=e362]
+      - paragraph [ref=e363]: Boka en tid, så ger jag dig min fulla uppmärksamhet, från första kammen till sista detaljen.
+      - link "Boka tid" [ref=e364] [cursor=pointer]:
+        - /url: "#booking"
+    - region "Frisör & barber i Svedala" [ref=e365]:
+      - generic [ref=e366]:
+        - generic [ref=e367]:
+          - generic [ref=e368]:
+            - paragraph [ref=e369]: Vanliga frågor
+            - heading "Frisör & barber i Svedala" [level=2] [ref=e370]
+          - paragraph [ref=e371]: Det vanligaste folk undrar om C The Barber, frisören och barbern på Storgatan i Svedala.
+        - generic [ref=e372]:
+          - group [ref=e373]:
+            - generic "Var ligger frisören och barbern? +" [ref=e374] [cursor=pointer]
+          - group [ref=e375]:
+            - generic "Klipper ni barn? +" [ref=e376] [cursor=pointer]
+          - group [ref=e377]:
+            - generic "Hur bokar jag tid? Finns ni på BokaDirekt? +" [ref=e378] [cursor=pointer]
+          - group [ref=e379]:
+            - generic "Är ni frisör eller barber? +" [ref=e380] [cursor=pointer]
+          - group [ref=e381]:
+            - generic "Vad kostar en klippning? +" [ref=e382] [cursor=pointer]
+          - group [ref=e383]:
+            - generic "Klipper och trimmar ni skägg? +" [ref=e384] [cursor=pointer]
+    - generic [ref=e386]:
+      - generic [ref=e387]:
+        - paragraph [ref=e388]: Kontakt
+        - heading "Hitta hit & hör av dig" [level=2] [ref=e389]
+        - list [ref=e390]:
+          - listitem [ref=e391]:
+            - img [ref=e393]
+            - generic [ref=e396]:
+              - strong [ref=e397]: Adress
+              - text: Storgatan 1, 233 31 Svedala
+          - listitem [ref=e398]:
+            - img [ref=e400]
+            - generic [ref=e402]:
+              - strong [ref=e403]: Telefon
+              - link "+46 70 000 00 00" [ref=e404] [cursor=pointer]:
+                - /url: tel:+46700000000
+          - listitem [ref=e405]:
+            - img [ref=e407]
+            - generic [ref=e410]:
+              - strong [ref=e411]: Instagram
+              - link "@cthebarber" [ref=e412] [cursor=pointer]:
+                - /url: https://instagram.com/cthebarber
+          - listitem [ref=e413]:
+            - img [ref=e415]
+            - generic [ref=e418]:
+              - strong [ref=e419]: Öppettider
+              - text: Vardagar 10 till 19. Lördag 10 till 16. Söndag stängt.
+      - generic [ref=e420]:
+        - iframe [ref=e421]:
+          
+        - link "Vägbeskrivning" [ref=e422] [cursor=pointer]:
+          - /url: https://www.google.com/maps/dir/?api=1&destination=55.509536%2C13.238952
+  - contentinfo [ref=e423]:
+    - generic [ref=e424]:
+      - generic [ref=e425]:
+        - generic [ref=e426]: C
+        - generic [ref=e427]: C THE BARBER
+        - paragraph [ref=e428]: Frisör & barber på Storgatan i Svedala. En kund i taget.
+        - paragraph [ref=e429]: Frisör och barber i Svedala för herrklippning, fade, skäggtrimning och barnklippning. Boka tid online eller via BokaDirekt.
+      - navigation "Sidlänkar" [ref=e430]:
+        - heading "Sidan" [level=4] [ref=e431]
+        - link "Om oss" [ref=e432] [cursor=pointer]:
+          - /url: "#about"
+        - link "Tjänster" [ref=e433] [cursor=pointer]:
+          - /url: "#services"
+        - link "Boka tid" [ref=e434] [cursor=pointer]:
+          - /url: "#booking"
+        - link "Vanliga frågor" [ref=e435] [cursor=pointer]:
+          - /url: "#faq"
+        - link "Projekt" [ref=e436] [cursor=pointer]:
+          - /url: "#projects"
+      - generic [ref=e437]:
+        - heading "Kontakt" [level=4] [ref=e438]
+        - link "+46 70 000 00 00" [ref=e439] [cursor=pointer]:
+          - /url: tel:+46700000000
+        - link "@cthebarber" [ref=e440] [cursor=pointer]:
+          - /url: https://instagram.com/cthebarber
+        - generic [ref=e441]: Storgatan 1, Svedala
+      - generic [ref=e442]:
+        - heading "Övrigt" [level=4] [ref=e443]
+        - link "Butik" [ref=e444] [cursor=pointer]:
+          - /url: butik.html
+        - link "Adminpanel" [ref=e445] [cursor=pointer]:
+          - /url: admin.html
+    - generic [ref=e446]:
+      - generic [ref=e447]: © 2026 C The Barber. Alla rättigheter förbehållna.
+      - generic [ref=e448]: Svedala · Sverige
+  - complementary [ref=e449]:
+    - generic [ref=e450]:
+      - heading [level=2] [ref=e451]: Varukorg
+      - button [ref=e452] [cursor=pointer]:
+        - img [ref=e453]
+    - generic [ref=e456]:
+      - paragraph [ref=e457]: Din varukorg är tom.
+      - link [ref=e458] [cursor=pointer]:
+        - /url: butik.html
+        - text: Till butiken

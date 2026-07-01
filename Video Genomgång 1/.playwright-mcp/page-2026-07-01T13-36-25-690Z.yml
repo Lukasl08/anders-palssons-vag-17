@@ -1,0 +1,14 @@
+- generic [ref=e3]:
+  - generic [ref=e4]: C
+  - heading "Adminpanel" [level=1] [ref=e5]
+  - paragraph [ref=e6]: Logga in för att hantera bokningar.
+  - generic [ref=e7]:
+    - generic [ref=e8]: Lösenord
+    - textbox "Lösenord" [ref=e9]:
+      - /placeholder: ••••••••
+  - button "Logga in" [ref=e11] [cursor=pointer]
+  - link "← Tillbaka till sidan" [ref=e12] [cursor=pointer]:
+    - /url: index.html
+  - paragraph [ref=e13]:
+    - text: "Demo-lösenord:"
+    - code [ref=e14]: cthebarber

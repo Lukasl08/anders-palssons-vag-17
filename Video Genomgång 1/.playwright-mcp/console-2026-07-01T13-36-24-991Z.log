@@ -1,0 +1,2 @@
+[     589ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:4533/admin.html:0
+[     611ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4533/favicon.ico:0

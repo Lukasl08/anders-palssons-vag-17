@@ -1,0 +1,131 @@
+- generic [ref=f3e2]:
+  - banner [ref=f3e3]:
+    - generic [ref=f3e4]:
+      - generic [ref=f3e5]: C
+      - generic [ref=f3e6]:
+        - strong [ref=f3e7]: C The Barber
+        - text: Adminpanel
+    - generic [ref=f3e8]:
+      - link "Visa sidan" [ref=f3e9] [cursor=pointer]:
+        - /url: index.html
+      - button "Logga ut" [ref=f3e10] [cursor=pointer]
+  - generic [ref=f3e11]:
+    - generic [ref=f3e12]:
+      - generic [ref=f3e13]: "0"
+      - generic [ref=f3e14]: Bokningar idag
+    - generic [ref=f3e15]:
+      - generic [ref=f3e16]: "1"
+      - generic [ref=f3e17]: Kommande
+    - generic [ref=f3e18]:
+      - generic [ref=f3e19]: 0 kr
+      - generic [ref=f3e20]: Kommande intäkt
+    - generic [ref=f3e21]:
+      - generic [ref=f3e22]: "1"
+      - generic [ref=f3e23]: Totalt
+  - generic [ref=f3e24]:
+    - generic [ref=f3e25]:
+      - generic [ref=f3e26]:
+        - heading "Bokningar" [level=2] [ref=f3e27]
+        - generic [ref=f3e28]:
+          - button "Kommande" [ref=f3e29] [cursor=pointer]
+          - button "Idag" [ref=f3e30] [cursor=pointer]
+          - button "Alla" [ref=f3e31] [cursor=pointer]
+      - generic [ref=f3e33]:
+        - generic [ref=f3e34]:
+          - generic [ref=f3e35]: "10"
+          - generic [ref=f3e36]: jul
+          - generic [ref=f3e37]: 11:00
+        - generic [ref=f3e38]:
+          - strong [ref=f3e39]: Kund
+          - text: · NaN tim ·
+        - generic [ref=f3e40]:
+          - generic [ref=f3e41]: undefined kr
+          - button "Avboka" [ref=f3e42] [cursor=pointer]
+    - complementary [ref=f3e43]:
+      - generic [ref=f3e44]:
+        - heading "Hantera tider" [level=2] [ref=f3e46]
+        - generic [ref=f3e47]:
+          - generic [ref=f3e48]: Datum
+          - textbox "Datum" [ref=f3e49]: 2026-07-01
+        - generic [ref=f3e50]:
+          - heading "Lägg till ledig tid" [level=3] [ref=f3e51]
+          - generic [ref=f3e52]:
+            - textbox [ref=f3e53]
+            - button "Lägg till" [ref=f3e54] [cursor=pointer]
+        - generic [ref=f3e55]:
+          - heading "Tider denna dag" [level=3] [ref=f3e56]
+          - paragraph [ref=f3e57]: Klicka på en tid för att blockera/avblockera.
+          - generic [ref=f3e59]: Stängt denna dag (inga grundtider). Lägg till en ledig tid ovan.
+        - button "Blockera hela dagen" [ref=f3e61] [cursor=pointer]
+      - generic [ref=f3e62]:
+        - heading "Öppettider" [level=2] [ref=f3e64]
+        - paragraph [ref=f3e65]: Ställ in vilka dagar och tider du klipper. Gäller alla veckor framåt tills du ändrar igen.
+        - generic [ref=f3e66]:
+          - generic [ref=f3e67]:
+            - generic [ref=f3e68] [cursor=pointer]:
+              - checkbox "Måndag" [checked] [ref=f3e69]
+              - generic [ref=f3e70]: Måndag
+            - generic [ref=f3e71]:
+              - textbox [ref=f3e72]: 10:00
+              - generic [ref=f3e73]: till
+              - textbox [ref=f3e74]: 19:00
+          - generic [ref=f3e75]:
+            - generic [ref=f3e76] [cursor=pointer]:
+              - checkbox "Tisdag" [checked] [ref=f3e77]
+              - generic [ref=f3e78]: Tisdag
+            - generic [ref=f3e79]:
+              - textbox [ref=f3e80]: 10:00
+              - generic [ref=f3e81]: till
+              - textbox [ref=f3e82]: 19:00
+          - generic [ref=f3e83]:
+            - generic [ref=f3e84] [cursor=pointer]:
+              - checkbox "Onsdag" [ref=f3e85]
+              - generic [ref=f3e86]: Onsdag
+            - generic:
+              - textbox: 10:00
+              - generic: till
+              - textbox: 19:00
+          - generic [ref=f3e87]:
+            - generic [ref=f3e88] [cursor=pointer]:
+              - checkbox "Torsdag" [checked] [ref=f3e89]
+              - generic [ref=f3e90]: Torsdag
+            - generic [ref=f3e91]:
+              - textbox [ref=f3e92]: 10:00
+              - generic [ref=f3e93]: till
+              - textbox [ref=f3e94]: 19:00
+          - generic [ref=f3e95]:
+            - generic [ref=f3e96] [cursor=pointer]:
+              - checkbox "Fredag" [checked] [ref=f3e97]
+              - generic [ref=f3e98]: Fredag
+            - generic [ref=f3e99]:
+              - textbox [ref=f3e100]: 10:00
+              - generic [ref=f3e101]: till
+              - textbox [ref=f3e102]: 19:00
+          - generic [ref=f3e103]:
+            - generic [ref=f3e104] [cursor=pointer]:
+              - checkbox "Lördag" [checked] [ref=f3e105]
+              - generic [ref=f3e106]: Lördag
+            - generic [ref=f3e107]:
+              - textbox [ref=f3e108]: 10:00
+              - generic [ref=f3e109]: till
+              - textbox [ref=f3e110]: 16:00
+          - generic [ref=f3e111]:
+            - generic [ref=f3e112] [cursor=pointer]:
+              - checkbox "Söndag" [ref=f3e113]
+              - generic [ref=f3e114]: Söndag
+            - generic:
+              - textbox: 10:00
+              - generic: till
+              - textbox: 19:00
+        - button "Spara öppettider" [ref=f3e115] [cursor=pointer]
+      - generic [ref=f3e116]:
+        - heading "Bortrest / ledig period" [level=2] [ref=f3e118]
+        - paragraph [ref=f3e119]: Blockera flera dagar på en gång, till exempel när du är bortrest. Perioden går inte att boka.
+        - generic [ref=f3e120]:
+          - generic [ref=f3e121]:
+            - generic [ref=f3e122]: Från
+            - textbox "Från" [ref=f3e123]
+          - generic [ref=f3e124]:
+            - generic [ref=f3e125]: Till
+            - textbox "Till" [ref=f3e126]
+        - button "Blockera perioden" [ref=f3e127] [cursor=pointer]

@@ -8,6 +8,12 @@
       "port": 3000
     },
     {
+      "name": "assi-barber",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "/Users/macbookpro/Desktop/Assi Barber", "run", "dev"],
+      "port": 3100
+    },
+    {
       "name": "dalabadet",
       "runtimeExecutable": "python3",
       "runtimeArgs": ["-m", "http.server", "4399", "--directory", "/Users/macbookpro/Desktop/Dalabadet Beachvolley Cup"],

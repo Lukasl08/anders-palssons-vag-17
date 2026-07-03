@@ -1,0 +1,196 @@
+- generic [ref=e3]:
+  - complementary [ref=e5]:
+    - generic [ref=e7]:
+      - generic [ref=e8]: Assi Barber
+      - generic [ref=e9]: Adminpanel
+    - navigation [ref=e10]:
+      - button "Översikt" [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+        - generic [ref=e17]: Översikt
+      - button "Bokningar" [ref=e18] [cursor=pointer]:
+        - img [ref=e19]
+        - generic [ref=e22]: Bokningar
+      - button "Kalender" [ref=e23] [cursor=pointer]:
+        - img [ref=e24]
+        - generic [ref=e26]: Kalender
+      - button "Schema & tider" [active] [ref=e27] [cursor=pointer]:
+        - img [ref=e28]
+        - generic [ref=e32]: Schema & tider
+      - button "Inställningar" [ref=e33] [cursor=pointer]:
+        - img [ref=e34]
+        - generic [ref=e37]: Inställningar
+    - generic [ref=e38]:
+      - link "Visa hemsidan" [ref=e39] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=e40]
+        - generic [ref=e43]: Visa hemsidan
+      - button "Logga ut" [ref=e44] [cursor=pointer]:
+        - img [ref=e45]
+        - generic [ref=e48]: Logga ut
+  - generic [ref=e49]:
+    - banner [ref=e50]:
+      - generic [ref=e51]:
+        - img [ref=e53]
+        - heading "Schema & tider" [level=1] [ref=e57]
+      - generic [ref=e58]: Synkad
+    - main [ref=e60]:
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - heading "Tidsmallar" [level=2] [ref=e64]:
+              - img [ref=e66]
+              - generic [ref=e70]: Tidsmallar
+            - paragraph [ref=e71]: Bygg en uppsättning tider en gång och återanvänd den på valfri dag — slipp skriva in tider varje dag.
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - generic [ref=e74]: Ny mall
+              - textbox "Namn på mallen, t.ex. ”Vanlig dag” eller ”Kort dag”" [ref=e75]
+              - generic [ref=e76]:
+                - generic [ref=e77]:
+                  - text: Från
+                  - textbox "Från" [ref=e78]: 10:00
+                - generic [ref=e79]:
+                  - text: Till
+                  - textbox "Till" [ref=e80]: 18:00
+                - generic [ref=e81]:
+                  - text: Var
+                  - combobox "Var" [ref=e82]:
+                    - option "15 min"
+                    - option "30 min" [selected]
+                    - option "45 min"
+                    - option "60 min"
+                - button "Fyll i tider" [ref=e83] [cursor=pointer]:
+                  - generic [ref=e84]:
+                    - img [ref=e85]
+                    - text: Fyll i tider
+              - generic [ref=e88]:
+                - generic [ref=e89]:
+                  - text: Lägg till en tid
+                  - textbox "Lägg till en tid" [ref=e90]
+                - button [ref=e91] [cursor=pointer]:
+                  - img [ref=e93]
+              - button "Spara mall" [disabled] [ref=e95]:
+                - generic [ref=e96]:
+                  - img [ref=e97]
+                  - text: Spara mall
+            - generic [ref=e101]:
+              - generic [ref=e102]: Sparade mallar
+              - paragraph [ref=e103]: Inga mallar än. Bygg din första ovan.
+        - generic [ref=e104]:
+          - generic [ref=e105]:
+            - generic [ref=e106]:
+              - heading "Öppettider" [level=2] [ref=e107]:
+                - img [ref=e109]
+                - generic [ref=e112]: Öppettider
+              - paragraph [ref=e113]: Styr vilka tider kunder kan boka varje veckodag.
+            - generic [ref=e115]:
+              - generic [ref=e116]:
+                - generic [ref=e117]: Mån
+                - switch [checked] [ref=e118] [cursor=pointer]
+                - generic [ref=e120]:
+                  - textbox [ref=e121]: 10:00
+                  - generic [ref=e122]: –
+                  - textbox [ref=e123]: 19:00
+              - generic [ref=e124]:
+                - generic [ref=e125]: Tis
+                - switch [checked] [ref=e126] [cursor=pointer]
+                - generic [ref=e128]:
+                  - textbox [ref=e129]: 10:00
+                  - generic [ref=e130]: –
+                  - textbox [ref=e131]: 19:00
+              - generic [ref=e132]:
+                - generic [ref=e133]: Ons
+                - switch [checked] [ref=e134] [cursor=pointer]
+                - generic [ref=e136]:
+                  - textbox [ref=e137]: 10:00
+                  - generic [ref=e138]: –
+                  - textbox [ref=e139]: 19:00
+              - generic [ref=e140]:
+                - generic [ref=e141]: Tor
+                - switch [checked] [ref=e142] [cursor=pointer]
+                - generic [ref=e144]:
+                  - textbox [ref=e145]: 10:00
+                  - generic [ref=e146]: –
+                  - textbox [ref=e147]: 19:00
+              - generic [ref=e148]:
+                - generic [ref=e149]: Fre
+                - switch [checked] [ref=e150] [cursor=pointer]
+                - generic [ref=e152]:
+                  - textbox [ref=e153]: 10:00
+                  - generic [ref=e154]: –
+                  - textbox [ref=e155]: 19:00
+              - generic [ref=e156]:
+                - generic [ref=e157]: Lör
+                - switch [checked] [ref=e158] [cursor=pointer]
+                - generic [ref=e160]:
+                  - textbox [ref=e161]: 10:00
+                  - generic [ref=e162]: –
+                  - textbox [ref=e163]: 19:00
+              - generic [ref=e164]:
+                - generic [ref=e165]: Sön
+                - switch [checked] [ref=e166] [cursor=pointer]
+                - generic [ref=e168]:
+                  - textbox [ref=e169]: 10:00
+                  - generic [ref=e170]: –
+                  - textbox [ref=e171]: 19:00
+          - generic [ref=e172]:
+            - generic [ref=e173]:
+              - generic [ref=e174]:
+                - heading "Bortrest / ledig period" [level=2] [ref=e175]:
+                  - img [ref=e177]
+                  - generic [ref=e179]: Bortrest / ledig period
+                - paragraph [ref=e180]: Blockera alla dagar i en period på en gång.
+              - generic [ref=e181]:
+                - generic [ref=e182]:
+                  - generic [ref=e183]:
+                    - text: Från
+                    - textbox "Från" [ref=e184]
+                  - generic [ref=e185]:
+                    - text: Till
+                    - textbox "Till" [ref=e186]
+                - button "Blockera perioden" [disabled] [ref=e187]:
+                  - generic [ref=e188]: Blockera perioden
+            - generic [ref=e189]:
+              - generic [ref=e190]:
+                - heading "Stängda dagar" [level=2] [ref=e191]:
+                  - img [ref=e193]
+                  - generic [ref=e196]: Stängda dagar
+                - paragraph [ref=e197]: Enskilda dagar då mottagningen är stängd.
+              - generic [ref=e198]:
+                - generic [ref=e199]:
+                  - textbox [ref=e200]
+                  - button "Stäng dag" [disabled] [ref=e201]:
+                    - generic [ref=e202]: Stäng dag
+                - list [ref=e203]:
+                  - listitem [ref=e204]:
+                    - text: 3 juli
+                    - button "Öppna dagen" [ref=e205] [cursor=pointer]:
+                      - img [ref=e206]
+                  - listitem [ref=e209]:
+                    - text: 4 juli
+                    - button "Öppna dagen" [ref=e210] [cursor=pointer]:
+                      - img [ref=e211]
+                  - listitem [ref=e214]:
+                    - text: 5 juli
+                    - button "Öppna dagen" [ref=e215] [cursor=pointer]:
+                      - img [ref=e216]
+                  - listitem [ref=e219]:
+                    - text: 6 juli
+                    - button "Öppna dagen" [ref=e220] [cursor=pointer]:
+                      - img [ref=e221]
+                  - listitem [ref=e224]:
+                    - text: 7 juli
+                    - button "Öppna dagen" [ref=e225] [cursor=pointer]:
+                      - img [ref=e226]
+                  - listitem [ref=e229]:
+                    - text: 8 juli
+                    - button "Öppna dagen" [ref=e230] [cursor=pointer]:
+                      - img [ref=e231]
+                  - listitem [ref=e234]:
+                    - text: 9 juli
+                    - button "Öppna dagen" [ref=e235] [cursor=pointer]:
+                      - img [ref=e236]
+                  - listitem [ref=e239]:
+                    - text: 10 juli
+                    - button "Öppna dagen" [ref=e240] [cursor=pointer]:
+                      - img [ref=e241]

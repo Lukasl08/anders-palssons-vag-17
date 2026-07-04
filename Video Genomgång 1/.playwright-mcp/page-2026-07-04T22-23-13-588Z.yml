@@ -1,0 +1,106 @@
+- generic [ref=f5e578]:
+  - complementary [ref=f5e579]:
+    - generic [ref=f5e581]:
+      - generic [ref=f5e582]: Assi Barber
+      - generic [ref=f5e583]: Adminpanel
+    - navigation [ref=f5e584]:
+      - button "Översikt" [ref=f5e585] [cursor=pointer]:
+        - img [ref=f5e586]
+        - generic [ref=f5e591]: Översikt
+      - button "Statistik" [ref=f5e592] [cursor=pointer]:
+        - img [ref=f5e593]
+        - generic [ref=f5e595]: Statistik
+      - button "Bokningar" [ref=f5e596] [cursor=pointer]:
+        - img [ref=f5e597]
+        - generic [ref=f5e600]: Bokningar
+      - button "Kalender" [ref=f5e601] [cursor=pointer]:
+        - img [ref=f5e602]
+        - generic [ref=f5e604]: Kalender
+      - button "Schema & tider" [ref=f5e605] [cursor=pointer]:
+        - img [ref=f5e606]
+        - generic [ref=f5e610]: Schema & tider
+      - button "Inställningar" [ref=f5e611] [cursor=pointer]:
+        - img [ref=f5e612]
+        - generic [ref=f5e615]: Inställningar
+    - generic [ref=f5e616]:
+      - link "Visa hemsidan" [ref=f5e617] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=f5e618]
+        - generic [ref=f5e621]: Visa hemsidan
+      - button "Logga ut" [ref=f5e622] [cursor=pointer]:
+        - img [ref=f5e623]
+        - generic [ref=f5e626]: Logga ut
+  - generic [ref=f5e627]:
+    - banner [ref=f5e628]:
+      - generic [ref=f5e629]:
+        - img [ref=f5e631]
+        - heading "Översikt" [level=1] [ref=f5e636]
+      - generic [ref=f5e637]: Synkad
+    - main [ref=f5e639]:
+      - generic [ref=f5e640]:
+        - generic [ref=f5e641]:
+          - heading "God morgon, Assi." [level=2] [ref=f5e642]
+          - paragraph [ref=f5e643]: Du har 1 bokning idag.
+        - generic [ref=f5e644]:
+          - generic [ref=f5e645]:
+            - generic [ref=f5e646]:
+              - generic [ref=f5e647]: Idag
+              - img [ref=f5e649]
+            - generic [ref=f5e652]: "1"
+            - generic [ref=f5e653]: 450 kr
+          - generic [ref=f5e654]:
+            - generic [ref=f5e655]:
+              - generic [ref=f5e656]: Denna vecka
+              - img [ref=f5e658]
+            - generic [ref=f5e660]: "1"
+            - generic [ref=f5e661]: 450 kr
+          - generic [ref=f5e662]:
+            - generic [ref=f5e663]:
+              - generic [ref=f5e664]: Kommande totalt
+              - img [ref=f5e666]
+            - generic [ref=f5e669]: "3"
+          - generic [ref=f5e670]:
+            - generic [ref=f5e671]:
+              - generic [ref=f5e672]: Snittintäkt / bokning
+              - img [ref=f5e674]
+            - generic [ref=f5e679]: 450 kr
+            - generic [ref=f5e680]: denna vecka
+        - generic [ref=f5e681]:
+          - generic [ref=f5e682]:
+            - generic [ref=f5e683]:
+              - heading "Dagens schema" [level=3] [ref=f5e684]
+              - generic [ref=f5e685]: söndag 5 juli
+            - list [ref=f5e687]:
+              - listitem [ref=f5e688]:
+                - generic [ref=f5e689]: 14:05
+                - generic [ref=f5e690]:
+                  - generic [ref=f5e691]: Lukas Lindgren
+                  - generic [ref=f5e692]: Fade · 450 kr
+                - link "Ring Lukas Lindgren" [ref=f5e693] [cursor=pointer]:
+                  - /url: tel:0723986414
+                  - img [ref=f5e694]
+          - generic [ref=f5e696]:
+            - generic [ref=f5e697]:
+              - heading "Nästa bokning" [level=3] [ref=f5e698]
+              - generic [ref=f5e699]:
+                - generic [ref=f5e700]: Lukas · 14:05
+                - generic [ref=f5e701]: söndag 5 juli
+                - generic [ref=f5e702]: Fade · 450 kr
+                - generic [ref=f5e703]:
+                  - link "Ring" [ref=f5e704] [cursor=pointer]:
+                    - /url: tel:0723986414
+                    - generic [ref=f5e705]:
+                      - img [ref=f5e706]
+                      - text: Ring
+                  - link "SMS" [ref=f5e708] [cursor=pointer]:
+                    - /url: sms:0723986414
+                    - generic [ref=f5e709]:
+                      - img [ref=f5e710]
+                      - text: SMS
+            - generic [ref=f5e713]:
+              - button "Alla bokningar" [ref=f5e714] [cursor=pointer]:
+                - img [ref=f5e715]
+                - generic [ref=f5e718]: Alla bokningar
+              - button "Stäng en period" [ref=f5e719] [cursor=pointer]:
+                - img [ref=f5e720]
+                - generic [ref=f5e722]: Stäng en period

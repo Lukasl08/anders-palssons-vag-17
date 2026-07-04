@@ -1,0 +1,483 @@
+- generic [ref=f4e3]:
+  - generic [ref=f4e4]:
+    - generic [ref=f4e5]:
+      - generic [ref=f4e6]: Assi Barber
+      - generic [ref=f4e7]: Svedala
+    - generic:
+      - generic: ASSI
+    - generic [ref=f4e8]:
+      - generic [ref=f4e9]: "0"
+      - generic [ref=f4e10]:
+        - text: Laddar
+        - text: upplevelsen
+  - banner [ref=f4e11]:
+    - link "A" [ref=f4e12] [cursor=pointer]:
+      - /url: "#hem"
+      - generic [ref=f4e13]:
+        - img [ref=f4e14]:
+          - generic [ref=f4e15]: ASSI BARBER · SVEDALA ·
+        - generic [ref=f4e17]: A
+    - button "Öppna meny" [ref=f4e19] [cursor=pointer]
+  - generic:
+    - generic:
+      - generic:
+        - link "Hem":
+          - /url: "#hem"
+        - link "Tjänster":
+          - /url: "#tjanster"
+        - link "Galleri":
+          - /url: "#galleri"
+        - link "Om Assi":
+          - /url: "#om"
+        - link "Recensioner":
+          - /url: "#recensioner"
+        - link "Kontakt":
+          - /url: "#kontakt"
+        - generic:
+          - generic: Öppet idag
+          - generic: Stängt
+          - button "Boka tid":
+            - generic: Boka tid
+  - main [ref=f4e23]:
+    - generic [ref=f4e24]:
+      - img "Assi klipper en kund i Svedala" [ref=f4e25]
+      - generic [ref=f4e29]:
+        - generic [ref=f4e32]: Sedan 2018 · Svedala
+        - heading "Professionell Barberare" [level=1] [ref=f4e33]:
+          - text: Professionell
+          - text: Barberare
+        - paragraph [ref=f4e34]: Professionell barberare i Svedala med fokus på moderna fades, klassiska herrklippningar och perfekt skäggtrimning.
+        - generic [ref=f4e35]:
+          - button "Boka tid" [ref=f4e36] [cursor=pointer]
+          - link "Tjänster" [ref=f4e37] [cursor=pointer]:
+            - /url: "#tjanster"
+    - generic [ref=f4e39]:
+      - generic [ref=f4e40]:
+        - generic [ref=f4e42]: 0.0★
+        - generic [ref=f4e43]: Betyg på Google
+      - generic [ref=f4e44]:
+        - generic [ref=f4e46]: 0+
+        - generic [ref=f4e47]: Omdömen på Google
+      - generic [ref=f4e48]:
+        - generic [ref=f4e49]: Drop-in
+        - generic [ref=f4e50]: eller boka tid i förväg
+      - generic [ref=f4e51]:
+        - generic [ref=f4e52]: Barnvänligt
+        - generic [ref=f4e53]: trygg och snabb med de yngre
+    - generic [ref=f4e54]:
+      - generic:
+        - generic: ARBETEN
+      - generic [ref=f4e55]:
+        - generic [ref=f4e56]: Ögonblick i stolen
+        - generic [ref=f4e58]: Hovra för att pausa
+      - generic [ref=f4e59]:
+        - generic:
+          - img "Klippning 1 hos Assi Barber" [ref=f4e61]:
+            - generic [ref=f4e62]: Galleribild 01
+          - img "Klippning 2 hos Assi Barber" [ref=f4e64]:
+            - generic [ref=f4e65]: Galleribild 02
+          - img "Klippning 3 hos Assi Barber" [ref=f4e67]:
+            - generic [ref=f4e68]: Galleribild 03
+          - img "Klippning 4 hos Assi Barber" [ref=f4e70]:
+            - generic [ref=f4e71]: Galleribild 04
+          - img "Klippning 5 hos Assi Barber" [ref=f4e73]:
+            - generic [ref=f4e74]: Galleribild 05
+          - img "Klippning 6 hos Assi Barber" [ref=f4e76]:
+            - generic [ref=f4e77]: Galleribild 06
+          - img "Klippning 7 hos Assi Barber" [ref=f4e79]:
+            - generic [ref=f4e80]: Galleribild 07
+          - img "Klippning 8 hos Assi Barber" [ref=f4e82]:
+            - generic [ref=f4e83]: Galleribild 08
+    - generic [ref=f4e85]:
+      - generic [ref=f4e86]:
+        - generic [ref=f4e87]:
+          - generic [ref=f4e88]: Priser
+          - heading "Tjänster" [level=2] [ref=f4e90]
+        - paragraph [ref=f4e92]: Varje behandling utförs med samma noggrannhet, oavsett om det är en snabb kontur eller hela paketet. Välj den som passar dig.
+      - generic [ref=f4e93]:
+        - generic [ref=f4e95] [cursor=pointer]:
+          - generic [ref=f4e96]: "01"
+          - generic [ref=f4e97]:
+            - heading "Fade" [level=3] [ref=f4e98]
+            - paragraph [ref=f4e99]:
+              - text: Precisionsklippning med skarp fade och styling.
+              - generic [ref=f4e100]: · 45 min
+          - generic [ref=f4e101]:
+            - generic [ref=f4e102]: 450kr
+            - generic [ref=f4e103]: Boka
+        - generic [ref=f4e105] [cursor=pointer]:
+          - generic [ref=f4e106]: "02"
+          - generic [ref=f4e107]:
+            - heading "Herrklippning" [level=3] [ref=f4e108]
+            - paragraph [ref=f4e109]:
+              - text: Klassisk klippning anpassad efter din stil.
+              - generic [ref=f4e110]: · 45 min
+          - generic [ref=f4e111]:
+            - generic [ref=f4e112]: 400kr
+            - generic [ref=f4e113]: Boka
+        - generic [ref=f4e115] [cursor=pointer]:
+          - generic [ref=f4e116]: "03"
+          - generic [ref=f4e117]:
+            - heading "Skäggtrimning" [level=3] [ref=f4e118]
+            - paragraph [ref=f4e119]:
+              - text: Formning och konturering på millimetern.
+              - generic [ref=f4e120]: · 30 min
+          - generic [ref=f4e121]:
+            - generic [ref=f4e122]: 250kr
+            - generic [ref=f4e123]: Boka
+        - generic [ref=f4e125] [cursor=pointer]:
+          - generic [ref=f4e126]: "04"
+          - generic [ref=f4e127]:
+            - heading "Klippning + Skägg" [level=3] [ref=f4e128]
+            - paragraph [ref=f4e129]:
+              - text: Hela paketet i ett svep. Snygg från topp till haka.
+              - generic [ref=f4e130]: · 60 min
+          - generic [ref=f4e131]:
+            - generic [ref=f4e132]: 600kr
+            - generic [ref=f4e133]: Boka
+        - generic [ref=f4e135] [cursor=pointer]:
+          - generic [ref=f4e136]: "05"
+          - generic [ref=f4e137]:
+            - heading "Barnklippning" [level=3] [ref=f4e138]
+            - paragraph [ref=f4e139]:
+              - text: Lugnt och tryggt för de yngre (upp till 12 år).
+              - generic [ref=f4e140]: · 30 min
+          - generic [ref=f4e141]:
+            - generic [ref=f4e142]: 300kr
+            - generic [ref=f4e143]: Boka
+    - generic [ref=f4e145]:
+      - generic [ref=f4e146]:
+        - generic [ref=f4e147]: Om Assi
+        - heading "Mer än en klippning. En upplevelse." [level=2] [ref=f4e149]:
+          - text: Mer än en klippning.
+          - text: En upplevelse.
+      - generic [ref=f4e150]:
+        - generic [ref=f4e151]:
+          - paragraph [ref=f4e153]: Jag heter Assi och har klippt hår i över sju år. För mig handlar det inte bara om en klippning, utan om känslan du går ut med. Du ska sitta ner, koppla av och gå därifrån med självförtroende.
+          - paragraph [ref=f4e155]: Jag tar mig tid för varje kund, lyssnar på vad du vill ha och lägger samma noggrannhet på detaljerna varje gång. Det är så jag bygger stil som håller längre än till nästa vecka.
+          - list [ref=f4e157]:
+            - listitem [ref=f4e158]:
+              - generic [ref=f4e159]: "01"
+              - text: 7+ års erfarenhet
+            - listitem [ref=f4e160]:
+              - generic [ref=f4e161]: "02"
+              - text: Utbildad barberare
+            - listitem [ref=f4e162]:
+              - generic [ref=f4e163]: "03"
+              - text: Fokus på detaljer
+            - listitem [ref=f4e164]:
+              - generic [ref=f4e165]: "04"
+              - text: Alltid personligt
+        - generic [ref=f4e167]:
+          - img "Assi, barberare i Svedala" [ref=f4e168]:
+            - generic [ref=f4e169]: Porträtt · Assi
+          - img "Detalj från klippning" [ref=f4e170]:
+            - generic [ref=f4e171]: Detaljbild
+          - img "Verktyg och detaljer" [ref=f4e172]:
+            - generic [ref=f4e173]: Verktyg
+    - generic [ref=f4e175]:
+      - generic [ref=f4e176]:
+        - generic [ref=f4e177]: Galleri
+        - heading "Arbeten från stolen" [level=2] [ref=f4e179]
+        - paragraph [ref=f4e180]: Ett urval av klippningar och skägg. Klicka för att se större.
+      - generic [ref=f4e181]:
+        - button "Klippning 1 hos Assi Barber i Svedala 01" [ref=f4e183] [cursor=pointer]:
+          - img "Klippning 1 hos Assi Barber i Svedala" [ref=f4e184]:
+            - generic [ref=f4e185]: Galleribild 01
+          - generic [ref=f4e186]: "01"
+        - button "Klippning 2 hos Assi Barber i Svedala 02" [ref=f4e188] [cursor=pointer]:
+          - img "Klippning 2 hos Assi Barber i Svedala" [ref=f4e189]:
+            - generic [ref=f4e190]: Galleribild 02
+          - generic [ref=f4e191]: "02"
+        - button "Klippning 3 hos Assi Barber i Svedala 03" [ref=f4e193] [cursor=pointer]:
+          - img "Klippning 3 hos Assi Barber i Svedala" [ref=f4e194]:
+            - generic [ref=f4e195]: Galleribild 03
+          - generic [ref=f4e196]: "03"
+        - button "Klippning 4 hos Assi Barber i Svedala 04" [ref=f4e198] [cursor=pointer]:
+          - img "Klippning 4 hos Assi Barber i Svedala" [ref=f4e199]:
+            - generic [ref=f4e200]: Galleribild 04
+          - generic [ref=f4e201]: "04"
+        - button "Klippning 5 hos Assi Barber i Svedala 05" [ref=f4e203] [cursor=pointer]:
+          - img "Klippning 5 hos Assi Barber i Svedala" [ref=f4e204]:
+            - generic [ref=f4e205]: Galleribild 05
+          - generic [ref=f4e206]: "05"
+        - button "Klippning 6 hos Assi Barber i Svedala 06" [ref=f4e208] [cursor=pointer]:
+          - img "Klippning 6 hos Assi Barber i Svedala" [ref=f4e209]:
+            - generic [ref=f4e210]: Galleribild 06
+          - generic [ref=f4e211]: "06"
+        - button "Klippning 7 hos Assi Barber i Svedala 07" [ref=f4e213] [cursor=pointer]:
+          - img "Klippning 7 hos Assi Barber i Svedala" [ref=f4e214]:
+            - generic [ref=f4e215]: Galleribild 07
+          - generic [ref=f4e216]: "07"
+        - button "Klippning 8 hos Assi Barber i Svedala 08" [ref=f4e218] [cursor=pointer]:
+          - img "Klippning 8 hos Assi Barber i Svedala" [ref=f4e219]:
+            - generic [ref=f4e220]: Galleribild 08
+          - generic [ref=f4e221]: "08"
+    - generic [ref=f4e223]:
+      - generic [ref=f4e224]:
+        - generic [ref=f4e225]: Före & efter
+        - heading "Skillnaden i stolen" [level=2] [ref=f4e227]
+        - paragraph [ref=f4e228]: Dra i reglaget för att se förvandlingen.
+      - generic [ref=f4e229]:
+        - generic [ref=f4e231]:
+          - img "Skin fade + skägg — efter" [ref=f4e232]:
+            - generic [ref=f4e233]: Efter-bild
+          - generic [ref=f4e234]:
+            - img "Skin fade + skägg — före" [ref=f4e235]:
+              - generic [ref=f4e236]: Före-bild
+            - generic [ref=f4e237]: Före
+          - generic [ref=f4e238]: Efter
+          - slider "Skin fade + skägg — dra för att jämföra före och efter" [ref=f4e240]:
+            - img [ref=f4e241]
+          - generic [ref=f4e244]: Skin fade + skägg
+        - generic [ref=f4e246]:
+          - img "Textur & flow — efter" [ref=f4e247]:
+            - generic [ref=f4e248]: Efter-bild
+          - generic [ref=f4e249]:
+            - img "Textur & flow — före" [ref=f4e250]:
+              - generic [ref=f4e251]: Före-bild
+            - generic [ref=f4e252]: Före
+          - generic [ref=f4e253]: Efter
+          - slider "Textur & flow — dra för att jämföra före och efter" [ref=f4e255]:
+            - img [ref=f4e256]
+          - generic [ref=f4e259]: Textur & flow
+    - generic [ref=f4e261]:
+      - generic [ref=f4e262]:
+        - generic [ref=f4e263]:
+          - generic [ref=f4e264]: Recensioner
+          - heading "Vad kunderna säger" [level=2] [ref=f4e266]
+        - generic [ref=f4e267]:
+          - generic [ref=f4e268]:
+            - generic [ref=f4e269]: "4.8"
+            - generic [ref=f4e270]:
+              - generic [ref=f4e271]:
+                - img [ref=f4e272]
+                - img [ref=f4e274]
+                - img [ref=f4e276]
+                - img [ref=f4e278]
+                - img [ref=f4e280]
+              - generic [ref=f4e282]:
+                - img [ref=f4e283]
+                - text: 90+ omdömen på Google
+          - link "Läs alla" [ref=f4e285] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=Assi+Barber+Svedala
+      - generic [ref=f4e286]:
+        - figure [ref=f4e288]:
+          - generic [ref=f4e289]:
+            - generic [ref=f4e290]:
+              - generic [ref=f4e291]: D
+              - generic [ref=f4e292]:
+                - generic [ref=f4e293]: dj Rafi86
+                - generic [ref=f4e294]: för en månad sedan
+            - img [ref=f4e295]
+          - generic [ref=f4e297]:
+            - img [ref=f4e298]
+            - img [ref=f4e300]
+            - img [ref=f4e302]
+            - img [ref=f4e304]
+            - img [ref=f4e306]
+          - blockquote [ref=f4e308]: Jag rekommenderar dem, jag har använt deras tjänster i över 10 år och har aldrig blivit besviken. Fantastisk och vänlig service, de hälsar dig alltid välkommen med ett leende.
+        - figure [ref=f4e310]:
+          - generic [ref=f4e311]:
+            - generic [ref=f4e312]:
+              - generic [ref=f4e313]: T
+              - generic [ref=f4e314]:
+                - generic [ref=f4e315]: Timmy Hanke
+                - generic [ref=f4e316]: för ett år sedan
+            - img [ref=f4e317]
+          - generic [ref=f4e319]:
+            - img [ref=f4e320]
+            - img [ref=f4e322]
+            - img [ref=f4e324]
+            - img [ref=f4e326]
+            - img [ref=f4e328]
+          - blockquote [ref=f4e330]: Bästa frisören någonsin. Bara att bli bemött med sitt namn när man bokar tid säger hur mycket extra tid han lägger ner för sina kunder.
+      - button "Visa fler recensioner (16)" [ref=f4e332] [cursor=pointer]:
+        - generic [ref=f4e333]:
+          - text: Visa fler recensioner (16)
+          - img [ref=f4e334]
+      - generic [ref=f4e335]:
+        - paragraph [ref=f4e336]: Vill du också bli nöjd kund? Det tar 30 sekunder att boka.
+        - link "Boka tid hos Assi" [ref=f4e337] [cursor=pointer]:
+          - /url: "#boka"
+          - generic [ref=f4e338]: Boka tid hos Assi
+    - generic [ref=f4e340]:
+      - generic [ref=f4e341]:
+        - generic [ref=f4e342]: Boka tid
+        - heading "Boka på under 30 sekunder" [level=2] [ref=f4e344]
+        - paragraph [ref=f4e345]: Välj tjänst, dag och tid. Klart.
+      - generic [ref=f4e346]:
+        - generic [ref=f4e347]:
+          - button "1 Tjänst" [ref=f4e348] [cursor=pointer]:
+            - generic [ref=f4e349]: "1"
+            - generic [ref=f4e350]: Tjänst
+          - button "2 Datum" [disabled] [ref=f4e351]:
+            - generic [ref=f4e352]: "2"
+            - generic [ref=f4e353]: Datum
+          - button "3 Tid" [disabled] [ref=f4e354]:
+            - generic [ref=f4e355]: "3"
+            - generic [ref=f4e356]: Tid
+          - button "4 Uppgifter" [disabled] [ref=f4e357]:
+            - generic [ref=f4e358]: "4"
+            - generic [ref=f4e359]: Uppgifter
+        - paragraph [ref=f4e361]: Laddar tider…
+    - generic [ref=f4e363]:
+      - generic [ref=f4e364]:
+        - generic [ref=f4e365]: Vanliga frågor
+        - heading "Bra att veta" [level=2] [ref=f4e367]
+      - generic [ref=f4e368]:
+        - generic [ref=f4e370]:
+          - button "Hur bokar jag tid?" [expanded] [ref=f4e371] [cursor=pointer]:
+            - generic [ref=f4e372]: Hur bokar jag tid?
+            - img [ref=f4e373]
+          - region "Hur bokar jag tid?" [ref=f4e376]:
+            - paragraph [ref=f4e378]: Enklast bokar du direkt här på sidan under "Boka tid". Välj tjänst, dag och tid, fyll i dina uppgifter så är du klar på under 30 sekunder.
+        - generic [ref=f4e380]:
+          - button "Var ligger Assi Barber?" [ref=f4e381] [cursor=pointer]:
+            - generic [ref=f4e382]: Var ligger Assi Barber?
+            - img [ref=f4e383]
+          - region "Var ligger Assi Barber?":
+            - paragraph [ref=f4e384]: Vi finns på Storgatan 1, 233 30 Svedala i centrala Svedala. Se kartan under Kontakt.
+        - generic [ref=f4e386]:
+          - button "Klipper ni barn?" [ref=f4e387] [cursor=pointer]:
+            - generic [ref=f4e388]: Klipper ni barn?
+            - img [ref=f4e389]
+          - region "Klipper ni barn?":
+            - paragraph [ref=f4e390]: Ja, vi har barnklippning för de yngre. Boka tjänsten "Barnklippning" så anpassar vi tempot.
+        - generic [ref=f4e392]:
+          - button "Kan jag avboka eller boka om?" [ref=f4e393] [cursor=pointer]:
+            - generic [ref=f4e394]: Kan jag avboka eller boka om?
+            - img [ref=f4e395]
+          - region "Kan jag avboka eller boka om?":
+            - paragraph [ref=f4e396]: Absolut. Hör av dig via telefon eller mejl i god tid så löser vi en ny tid.
+        - generic [ref=f4e398]:
+          - button "Tar ni kort?" [ref=f4e399] [cursor=pointer]:
+            - generic [ref=f4e400]: Tar ni kort?
+            - img [ref=f4e401]
+          - region "Tar ni kort?":
+            - paragraph [ref=f4e402]: Ja, vi tar kort, Swish och kontanter.
+        - generic [ref=f4e404]:
+          - button "Säljer ni presentkort?" [ref=f4e405] [cursor=pointer]:
+            - generic [ref=f4e406]: Säljer ni presentkort?
+            - img [ref=f4e407]
+          - region "Säljer ni presentkort?":
+            - paragraph [ref=f4e408]: Ja! Presentkort är perfekt present. Hör av dig så fixar vi det.
+    - generic [ref=f4e410]:
+      - generic [ref=f4e411]:
+        - generic [ref=f4e412]: Kontakt
+        - heading "Hitta hit" [level=2] [ref=f4e414]
+        - paragraph [ref=f4e415]: Välkommen till Assi Barber i centrala Svedala.
+      - generic [ref=f4e416]:
+        - generic [ref=f4e418]:
+          - generic [ref=f4e419]:
+            - link "Adress Storgatan 1, 233 30 Svedala Svedala" [ref=f4e420] [cursor=pointer]:
+              - /url: https://www.google.com/maps/dir/?api=1&destination=55.509536,13.238952
+              - img [ref=f4e422]
+              - generic [ref=f4e425]:
+                - generic [ref=f4e426]: Adress
+                - generic [ref=f4e427]: Storgatan 1, 233 30 Svedala Svedala
+            - link "Telefon +46 70 000 00 00" [ref=f4e428] [cursor=pointer]:
+              - /url: tel:+4670000000
+              - img [ref=f4e430]
+              - generic [ref=f4e432]:
+                - generic [ref=f4e433]: Telefon
+                - generic [ref=f4e434]: +46 70 000 00 00
+            - link "E-post hej@assibarber.se" [ref=f4e435] [cursor=pointer]:
+              - /url: mailto:hej@assibarber.se
+              - img [ref=f4e437]
+              - generic [ref=f4e440]:
+                - generic [ref=f4e441]: E-post
+                - generic [ref=f4e442]: hej@assibarber.se
+          - generic [ref=f4e443]:
+            - generic [ref=f4e444]: Öppettider
+            - list [ref=f4e445]:
+              - listitem [ref=f4e446]:
+                - generic [ref=f4e447]: Måndag
+                - generic [ref=f4e448]: 10:00 – 19:00
+              - listitem [ref=f4e449]:
+                - generic [ref=f4e450]: Tisdag
+                - generic [ref=f4e451]: 10:00 – 19:00
+              - listitem [ref=f4e452]:
+                - generic [ref=f4e453]: Onsdag
+                - generic [ref=f4e454]: 10:00 – 19:00
+              - listitem [ref=f4e455]:
+                - generic [ref=f4e456]: Torsdag
+                - generic [ref=f4e457]: 10:00 – 19:00
+              - listitem [ref=f4e458]:
+                - generic [ref=f4e459]: Fredag
+                - generic [ref=f4e460]: 10:00 – 19:00
+              - listitem [ref=f4e461]:
+                - generic [ref=f4e462]: Lördag
+                - generic [ref=f4e463]: 10:00 – 16:00
+              - listitem [ref=f4e464]:
+                - generic [ref=f4e465]: Söndag
+                - generic [ref=f4e466]: Stängt
+          - generic [ref=f4e467]:
+            - link "Instagram" [ref=f4e468] [cursor=pointer]:
+              - /url: https://instagram.com/assibarber
+            - link "TikTok" [ref=f4e469] [cursor=pointer]:
+              - /url: https://tiktok.com/@assibarber
+            - link "Facebook" [ref=f4e470] [cursor=pointer]:
+              - /url: https://facebook.com/assibarber
+        - img "Karta till Assi Barber i Svedala" [ref=f4e472]:
+          - generic [ref=f4e473]: Karta (Google Maps)
+  - contentinfo [ref=f4e474]:
+    - generic [ref=f4e475]:
+      - generic [ref=f4e476]:
+        - heading "Dags för en ny stil?" [level=2] [ref=f4e477]:
+          - text: Dags för
+          - text: en ny stil?
+        - button "Boka tid" [ref=f4e478] [cursor=pointer]:
+          - generic [ref=f4e479]: Boka tid
+      - generic [ref=f4e480]:
+        - generic [ref=f4e481]:
+          - generic [ref=f4e482]:
+            - generic [ref=f4e483]:
+              - img [ref=f4e484]:
+                - generic [ref=f4e485]: ASSI BARBER · SVEDALA ·
+              - generic [ref=f4e487]: A
+            - generic [ref=f4e488]: Assi Barber
+          - paragraph [ref=f4e489]: Precision. Stil. Kvalitet. Professionell barberare i Svedala sedan 2018.
+        - generic [ref=f4e490]:
+          - generic [ref=f4e491]: Meny
+          - list [ref=f4e492]:
+            - listitem [ref=f4e493]:
+              - link "Hem" [ref=f4e494] [cursor=pointer]:
+                - /url: "#hem"
+            - listitem [ref=f4e495]:
+              - link "Tjänster" [ref=f4e496] [cursor=pointer]:
+                - /url: "#tjanster"
+            - listitem [ref=f4e497]:
+              - link "Galleri" [ref=f4e498] [cursor=pointer]:
+                - /url: "#galleri"
+            - listitem [ref=f4e499]:
+              - link "Om Assi" [ref=f4e500] [cursor=pointer]:
+                - /url: "#om"
+            - listitem [ref=f4e501]:
+              - link "Recensioner" [ref=f4e502] [cursor=pointer]:
+                - /url: "#recensioner"
+            - listitem [ref=f4e503]:
+              - link "Kontakt" [ref=f4e504] [cursor=pointer]:
+                - /url: "#kontakt"
+        - generic [ref=f4e505]:
+          - generic [ref=f4e506]: Kontakt
+          - list [ref=f4e507]:
+            - listitem [ref=f4e508]: Storgatan 1
+            - listitem [ref=f4e509]: 233 30 Svedala
+            - listitem [ref=f4e510]:
+              - link "+46 70 000 00 00" [ref=f4e511] [cursor=pointer]:
+                - /url: tel:+4670000000
+            - listitem [ref=f4e512]:
+              - link "hej@assibarber.se" [ref=f4e513] [cursor=pointer]:
+                - /url: mailto:hej@assibarber.se
+      - generic [ref=f4e514]:
+        - generic [ref=f4e515]: © 2026 Assi Barber. Alla rättigheter förbehållna.
+        - generic [ref=f4e516]:
+          - link "Integritetspolicy" [ref=f4e517] [cursor=pointer]:
+            - /url: "#"
+          - link "Villkor" [ref=f4e518] [cursor=pointer]:
+            - /url: "#"
+          - link "Adminpanel" [ref=f4e519] [cursor=pointer]:
+            - /url: "#/admin"
+  - button "Boka tid" [ref=f4e522] [cursor=pointer]:
+    - generic [ref=f4e523]: Boka tid

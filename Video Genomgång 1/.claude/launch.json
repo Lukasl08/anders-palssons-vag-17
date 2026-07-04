@@ -18,6 +18,12 @@
       "runtimeExecutable": "python3",
       "runtimeArgs": ["-m", "http.server", "4399", "--directory", "/Users/macbookpro/Desktop/Dalabadet Beachvolley Cup"],
       "port": 4399
+    },
+    {
+      "name": "c-the-barber",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "/Users/macbookpro/Desktop/C The Barber", "start"],
+      "port": 4533
     }
   ]
 }

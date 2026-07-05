@@ -1,0 +1,124 @@
+- generic [ref=f4e2]:
+  - banner [ref=f4e3]:
+    - link "← Tillbaka till adminpanelen" [ref=f4e4] [cursor=pointer]:
+      - /url: /#/admin
+    - generic [ref=f4e5]: Internt dokument
+    - heading "Överlämning till Assi" [level=1] [ref=f4e6]
+    - paragraph [ref=f4e7]: En checklista för dagen sajten går live på riktigt och Assi tar över ägandet. Skriven så att man kan bocka av punkt för punkt — inget kräver att man kan programmera.
+  - heading "01Riktiga företagsuppgifter" [level=2] [ref=f4e8]
+  - paragraph [ref=f4e9]:
+    - text: Sajten innehåller just nu platshållarvärden i filen
+    - code [ref=f4e10]: src/lib/content.ts
+    - text: (
+    - code [ref=f4e11]: siteConfig
+    - text: ).
+  - table [ref=f4e12]:
+    - rowgroup [ref=f4e13]:
+      - row "Vad Nuvarande platshållare" [ref=f4e14]:
+        - columnheader "Vad" [ref=f4e15]
+        - columnheader "Nuvarande platshållare" [ref=f4e16]
+      - row "Telefon +46 70 000 00 00" [ref=f4e17]:
+        - cell "Telefon" [ref=f4e18]
+        - cell "+46 70 000 00 00" [ref=f4e19]
+      - row "E-post hej@assibarber.se" [ref=f4e20]:
+        - cell "E-post" [ref=f4e21]
+        - cell "hej@assibarber.se" [ref=f4e22]
+      - row "Adress Storgatan 1" [ref=f4e23]:
+        - cell "Adress" [ref=f4e24]
+        - cell "Storgatan 1" [ref=f4e25]
+      - row "Postnummer/ort 233 30 Svedala" [ref=f4e26]:
+        - cell "Postnummer/ort" [ref=f4e27]
+        - cell "233 30 Svedala" [ref=f4e28]
+      - row "Instagram instagram.com/assibarber" [ref=f4e29]:
+        - cell "Instagram" [ref=f4e30]
+        - cell "instagram.com/assibarber" [ref=f4e31]
+      - row "TikTok tiktok.com/@assibarber" [ref=f4e32]:
+        - cell "TikTok" [ref=f4e33]
+        - cell "tiktok.com/@assibarber" [ref=f4e34]
+      - row "Facebook facebook.com/assibarber" [ref=f4e35]:
+        - cell "Facebook" [ref=f4e36]
+        - cell "facebook.com/assibarber" [ref=f4e37]
+      - row "Kartkoordinater Ungefärlig plats i Svedala" [ref=f4e38]:
+        - cell "Kartkoordinater" [ref=f4e39]
+        - cell "Ungefärlig plats i Svedala" [ref=f4e40]
+  - paragraph [ref=f4e41]: Öppna filen, byt texten mellan citattecknen, spara. Sajten uppdateras direkt.
+  - heading "02Riktiga bilder" [level=2] [ref=f4e42]
+  - paragraph [ref=f4e43]: Galleriet och hero-bilden är just nu platshållare, inte Assis egna klippningar.
+  - paragraph [ref=f4e44]:
+    - text: Byt bilderna i
+    - code [ref=f4e45]: public/images/
+    - text: och
+    - code [ref=f4e46]: public/images/gallery/
+    - text: . Sätt sedan
+    - code [ref=f4e47]: SHOW_IMAGES = true
+    - text: i
+    - code [ref=f4e48]: content.ts
+    - text: . Detta är den enskilda förändring som gör mest för hur proffsig sajten känns.
+  - heading "03SMS-påminnelser (46elks)" [level=2] [ref=f4e49]
+  - paragraph [ref=f4e50]: Just nu skickas SMS via utvecklarens eget 46elks-konto — det ska bytas innan lansering.
+  - list [ref=f4e51]:
+    - listitem [ref=f4e52]:
+      - text: Skapa konto på
+      - link "46elks.com" [ref=f4e53] [cursor=pointer]:
+        - /url: https://46elks.com
+      - text: (~5 min, betalning per SMS).
+    - listitem [ref=f4e54]: Sätt in pengar på kontot.
+    - listitem [ref=f4e55]:
+      - text: Gå till Account → API Credentials och kopiera Username (börjar med
+      - code [ref=f4e56]: u
+      - text: ) och Password.
+  - paragraph [ref=f4e57]:
+    - text: Klistra sedan in i filen
+    - code [ref=f4e58]: .env
+    - text: "i projektmappen:"
+  - generic [ref=f4e59]: ELKS_API_USERNAME=<Assis username> ELKS_API_PASSWORD=<Assis password> SMS_FROM=AssiBarber ASB_SHOP_PHONE=<Assis eget mobilnummer>
+  - paragraph [ref=f4e60]:
+    - code [ref=f4e61]: ASB_SHOP_PHONE
+    - text: "gör att Assi själv får ett SMS varje gång en kund bokar — \"Ny bokning: Anna – Skäggtrimning, torsdag kl 11:00. Tel: 070…\". Han behöver alltså inte hålla adminpanelen öppen. Samma 46elks-konto används, inget extra krävs."
+  - paragraph [ref=f4e62]:
+    - text: "Starta om servern med:"
+    - code [ref=f4e63]: node --env-file=.env server.cjs
+  - paragraph [ref=f4e64]: Kundens bekräftelse behöver inget av detta — den visas redan direkt på skärmen så fort bokningen går igenom.
+  - 'heading "04Valfritt (avancerat): mejlbekräftelse (Resend)" [level=2] [ref=f4e65]'
+  - paragraph [ref=f4e66]: Inte nödvändigt för lansering. Kunden ser redan en bekräftelse på skärmen och Assi får redan en SMS-notis (steg 03) — det här är bara en extra kanal om ni även vill ha en skriftlig bekräftelse i kundens inkorg. Hoppa gärna över hela steget.
+  - list [ref=f4e67]:
+    - listitem [ref=f4e68]:
+      - text: Skapa konto på
+      - link "resend.com" [ref=f4e69] [cursor=pointer]:
+        - /url: https://resend.com
+      - text: (gratis för den här volymen).
+    - listitem [ref=f4e70]:
+      - text: Verifiera domänen
+      - code [ref=f4e71]: assibarber.se
+      - text: så mejl kan skickas från
+      - code [ref=f4e72]: boka@assibarber.se
+      - text: . (Mest tekniska steget i hela guiden — helt okej att hoppa över.)
+    - listitem [ref=f4e73]: Hämta API-nyckeln under Resend → API Keys.
+  - generic [ref=f4e74]: RESEND_API_KEY=<Assis nyckel> RESEND_FROM=Assi Barber <boka@assibarber.se> ASB_SHOP_EMAIL=<Assis egen mejladress>
+  - heading "05Adminpanelens lösenord" [level=2] [ref=f4e75]
+  - paragraph [ref=f4e76]:
+    - text: Standardlösenordet (
+    - code [ref=f4e77]: assibarber
+    - text: ) ska bytas innan lansering — under Inställningar → Byt lösenord i panelen.
+  - heading "06Var sajten ska bo (domän & drift)" [level=2] [ref=f4e78]
+  - paragraph [ref=f4e79]:
+    - text: Projektet ligger just nu bara lokalt. För en riktig, publik sajt behövs ett webbhotell som kör Node.js dygnet runt, domänen
+    - code [ref=f4e80]: assibarber.se
+    - text: kopplad dit, och alla hemliga nycklar satta som miljövariabler i driftmiljön.
+  - heading "Sammanfattning" [level=2] [ref=f4e81]
+  - list [ref=f4e82]:
+    - listitem [ref=f4e83]:
+      - text: Riktiga kontaktuppgifter i
+      - code [ref=f4e84]: content.ts
+    - listitem [ref=f4e85]:
+      - text: Riktiga bilder +
+      - code [ref=f4e86]: SHOW_IMAGES = true
+    - listitem [ref=f4e87]:
+      - text: Assis eget 46elks-konto inkopplat i
+      - code [ref=f4e88]: .env
+      - text: (SMS-påminnelser + notis vid ny bokning)
+    - listitem [ref=f4e89]: Adminlösenordet bytt från standardvärdet
+    - listitem [ref=f4e90]: Sajten flyttad till en riktig driftmiljö med domän
+    - listitem [ref=f4e91]: "Valfritt: Assis eget Resend-konto + verifierad domän, för mejlbekräftelse"
+  - link "← Tillbaka till adminpanelen" [ref=f4e92] [cursor=pointer]:
+    - /url: /#/admin

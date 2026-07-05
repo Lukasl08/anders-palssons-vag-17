@@ -2,3 +2,19 @@
 [     646ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3100/#/admin:0
 [    9482ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3100/#/admin:0
 [   42826ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3100/#/admin:0
+[  375991ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:3100/@vite/client:559
+[  376762ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:21548
+[  409642ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:3100/@vite/client:559
+[  409921ms] [ERROR] WebSocket connection to 'ws://localhost:3100/?token=0b1LFu60cNAg' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/@vite/client:535
+[  409929ms] [ERROR] WebSocket connection to 'ws://localhost:3100/?token=0b1LFu60cNAg' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/@vite/client:535
+[  409930ms] [ERROR] [vite] failed to connect to websocket.
+your current setup:
+  (browser) localhost:3100/ <--[HTTP]--> localhost:3100/ (server)
+  (browser) localhost:3100/ <--[WebSocket (failing)]--> localhost:3100/ (server)
+Check out your Vite / network configuration and https://vite.dev/config/server-options.html#server-hmr . @ http://localhost:3100/@vite/client:511
+[  409972ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:21548
+[  410026ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/api/state:0
+[  410031ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/api/state:0
+[  410040ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/api/session:0
+[  410041ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/api/session:0
+[  410056ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3100/#/admin:0

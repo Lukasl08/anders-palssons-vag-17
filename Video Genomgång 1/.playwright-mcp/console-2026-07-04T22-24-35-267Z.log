@@ -1,1 +1,42 @@
 [     355ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:21548
+[  211432ms] ReferenceError: openingHours is not defined
+    at Navbar (http://localhost:3100/src/components/Navbar.tsx?t=1783204086557:42:22)
+    at renderWithHooks (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:11546:26)
+    at updateFunctionComponent (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:14580:28)
+    at beginWork (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:15922:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:3697:24)
+    at invokeGuardedCallback (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:3731:39)
+    at beginWork$1 (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:19763:15)
+    at performUnitOfWork (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:19196:20)
+    at workLoopSync (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:19135:13)
+[  211436ms] ReferenceError: openingHours is not defined
+    at Navbar (http://localhost:3100/src/components/Navbar.tsx?t=1783204086557:42:22)
+    at renderWithHooks (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:11546:26)
+    at updateFunctionComponent (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:14580:28)
+    at beginWork (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:15922:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:3697:24)
+    at invokeGuardedCallback (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:3731:39)
+    at beginWork$1 (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:19763:15)
+    at performUnitOfWork (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:19196:20)
+    at workLoopSync (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:19135:13)
+[  211438ms] [ERROR] The above error occurred in the <Navbar> component:
+
+    at Navbar (http://localhost:3100/src/components/Navbar.tsx?t=1783204086557:22:34)
+    at div
+    at App (http://localhost:3100/src/App.tsx?t=1783203717063:83:39)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:14029
+[  211441ms] ReferenceError: openingHours is not defined
+    at Navbar (http://localhost:3100/src/components/Navbar.tsx?t=1783204086557:42:22)
+    at renderWithHooks (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:11546:26)
+    at updateFunctionComponent (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:14580:28)
+    at beginWork (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:15922:22)
+    at beginWork$1 (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:19751:22)
+    at performUnitOfWork (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:19196:20)
+    at workLoopSync (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:19135:13)
+    at renderRootSync (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:19114:15)
+    at recoverFromConcurrentError (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:18734:28)
+    at performSyncWorkOnRoot (http://localhost:3100/node_modules/.vite/deps/chunk-PQUBWG3Q.js?v=847aa3b2:18877:28)

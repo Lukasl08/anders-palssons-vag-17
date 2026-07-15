@@ -1,0 +1,10 @@
+- generic [ref=e670]:
+  - generic [ref=e671]: Assi Barber
+  - generic [ref=e672]: Adminpanel
+  - paragraph [ref=e673]: Logga in för att hantera schema och bokningar.
+  - generic [ref=e674]:
+    - textbox "Lösenord" [active] [ref=e675]
+    - button "Visa lösenord" [ref=e676] [cursor=pointer]
+  - button "Logga in" [ref=e680] [cursor=pointer]
+  - link "← Till hemsidan" [ref=e682] [cursor=pointer]:
+    - /url: "#/"

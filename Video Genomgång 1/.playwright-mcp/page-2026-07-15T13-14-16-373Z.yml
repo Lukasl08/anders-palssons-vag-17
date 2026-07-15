@@ -1,0 +1,66 @@
+- generic [ref=e1537]:
+  - complementary [ref=e1538]:
+    - generic [ref=e1539]:
+      - generic [ref=e1540]:
+        - generic [ref=e1541]: Assi Barber
+        - generic [ref=e1542]: Adminpanel
+      - button "Stäng meny" [ref=e1543] [cursor=pointer]
+    - navigation [ref=e1547]:
+      - button "Översikt" [ref=e1548] [cursor=pointer]
+      - button "Statistik" [ref=e1555] [cursor=pointer]
+      - button "Bokningar" [ref=e1559] [cursor=pointer]
+      - button "Kalender" [ref=e1564] [cursor=pointer]
+      - button "Schema & tider" [ref=e1568] [cursor=pointer]
+      - button "Inställningar" [ref=e1574] [cursor=pointer]
+    - generic [ref=e1579]:
+      - link "Visa hemsidan" [ref=e1580] [cursor=pointer]:
+        - /url: "#/"
+      - button "Logga ut" [ref=e1585] [cursor=pointer]
+  - generic [ref=e1590]:
+    - banner [ref=e1591]:
+      - button "Öppna meny" [ref=e1592] [cursor=pointer]:
+        - generic [ref=e1594]: Meny
+      - heading "Översikt" [level=1] [ref=e1596]
+      - generic [ref=e1597]: Synkad
+    - main [ref=e1599]:
+      - generic [ref=e1600]:
+        - generic [ref=e1601]:
+          - heading "Hej, Assi." [level=2] [ref=e1602]
+          - paragraph [ref=e1603]: Inga bokningar kvar idag. Ledig eftermiddag.
+        - generic [ref=e1604]:
+          - generic [ref=e1605]:
+            - generic [ref=e1606]: Idag
+            - generic [ref=e1612]: "0"
+            - generic [ref=e1613]: 0 kr
+          - generic [ref=e1614]:
+            - generic [ref=e1615]: Denna vecka
+            - generic [ref=e1620]: "1"
+            - generic [ref=e1621]: 450 kr
+          - generic [ref=e1622]:
+            - generic [ref=e1623]: Kommande totalt
+            - generic [ref=e1629]: "1"
+          - generic [ref=e1630]:
+            - generic [ref=e1631]: Snittintäkt / bokning
+            - generic [ref=e1639]: 450 kr
+            - generic [ref=e1640]: denna vecka
+        - generic [ref=e1641]:
+          - generic [ref=e1642]:
+            - generic [ref=e1643]:
+              - heading "Dagens schema" [level=3] [ref=e1644]
+              - generic [ref=e1645]: onsdag 15 juli
+            - paragraph [ref=e1652]: Inga bokningar idag.
+          - generic [ref=e1653]:
+            - generic [ref=e1654]:
+              - heading "Nästa bokning" [level=3] [ref=e1655]
+              - generic [ref=e1656]:
+                - generic [ref=e1657]: Test · 10:20
+                - generic [ref=e1658]: torsdag 16 juli
+                - generic [ref=e1659]: Fade · 450 kr
+                - generic [ref=e1660]:
+                  - link [ref=e1661] [cursor=pointer]:
+                    - /url: tel:070-111 22 33
+                  - link [ref=e1665] [cursor=pointer]:
+                    - /url: sms:070-111 22 33
+            - generic [ref=e1670]:
+              - button "Alla bokningar" [ref=e1671] [cursor=pointer]
+              - button "Stäng en period" [ref=e1676] [cursor=pointer]

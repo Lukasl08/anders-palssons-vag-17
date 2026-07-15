@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Assi Barber//Booking//SV
+BEGIN:VEVENT
+UID:1784190000000@assibarber
+DTSTAMP:20260715T145200
+DTSTART:20260716T102000
+DTEND:20260716T110500
+SUMMARY:Fade hos Assi Barber
+LOCATION:Marknadstorget 23\, Svedala
+DESCRIPTION:Din bokade tid hos Assi Barber. Kom i tid\, och hör av dig i god tid om du får förhinder.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: tid hos Assi Barber
+END:VALARM
+END:VEVENT
+END:VCALENDAR

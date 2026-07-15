@@ -1,0 +1,69 @@
+- generic [ref=e683]:
+  - complementary [ref=e684]:
+    - generic [ref=e685]:
+      - generic [ref=e686]:
+        - generic [ref=e687]: Assi Barber
+        - generic [ref=e688]: Adminpanel
+      - button "Stäng meny" [ref=e689] [cursor=pointer]
+    - navigation [ref=e693]:
+      - button "Översikt" [ref=e694] [cursor=pointer]
+      - button "Statistik" [ref=e701] [cursor=pointer]
+      - button "Bokningar" [ref=e705] [cursor=pointer]
+      - button "Kalender" [ref=e710] [cursor=pointer]
+      - button "Schema & tider" [ref=e714] [cursor=pointer]
+      - button "Inställningar" [ref=e720] [cursor=pointer]
+    - generic [ref=e725]:
+      - link "Visa hemsidan" [ref=e726] [cursor=pointer]:
+        - /url: "#/"
+      - button "Logga ut" [ref=e731] [cursor=pointer]
+  - generic [ref=e736]:
+    - banner [ref=e737]:
+      - button "Öppna meny" [ref=e738] [cursor=pointer]:
+        - generic [ref=e740]: Meny
+      - heading "Bokningar" [level=1] [ref=e826]
+      - generic [ref=e743]: Synkad
+    - main [ref=e745]:
+      - generic [ref=e827]:
+        - generic [ref=e828]:
+          - generic [ref=e829]:
+            - button "Kommande" [ref=e830] [cursor=pointer]
+            - button "Idag" [ref=e831] [cursor=pointer]
+            - button "Tidigare" [ref=e832] [cursor=pointer]
+            - button "Alla" [ref=e833] [cursor=pointer]
+            - button "Uteblivna" [ref=e834] [cursor=pointer]
+          - textbox "Sök namn, telefon, tjänst" [ref=e839]
+        - list [ref=e840]:
+          - listitem [ref=e863]:
+            - generic [ref=e864]:
+              - generic [ref=e865]:
+                - generic [ref=e866]: 10:00
+                - generic [ref=e867]: 14 juli
+              - generic [ref=e868]:
+                - generic [ref=e869]:
+                  - generic [ref=e870]: No Show Nilsson
+                  - generic [ref=e871]: Fade · 450 kr
+                - generic [ref=e872]:
+                  - link "070-999 88 77" [ref=e873] [cursor=pointer]:
+                    - /url: tel:070-999 88 77
+                  - link "noshow@example.se" [ref=e876] [cursor=pointer]:
+                    - /url: mailto:noshow@example.se
+              - generic [ref=e880]:
+                - button "Markera" [active] [ref=e909] [cursor=pointer]
+                - button "Ångra" [ref=e910] [cursor=pointer]
+          - listitem [ref=e886]:
+            - generic [ref=e887]:
+              - generic [ref=e888]:
+                - generic [ref=e889]: 09:00
+                - generic [ref=e890]: 14 juli
+              - generic [ref=e891]:
+                - generic [ref=e892]:
+                  - generic [ref=e893]: No Show Nilsson
+                  - generic [ref=e894]: Fade · 450 kr
+                - generic [ref=e895]:
+                  - link "070-999 88 77" [ref=e896] [cursor=pointer]:
+                    - /url: tel:070-999 88 77
+                  - link "noshow@example.se" [ref=e899] [cursor=pointer]:
+                    - /url: mailto:noshow@example.se
+              - generic [ref=e903]:
+                - button "Kom ej" [ref=e904] [cursor=pointer]
+                - button "Avboka" [ref=e905] [cursor=pointer]

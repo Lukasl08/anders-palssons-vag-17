@@ -1,0 +1,40 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: C
+    - heading "Adminpanel" [level=1] [ref=e5]
+    - paragraph [ref=e6]: Endast för Casper. Logga in för att hantera bokningar och tider.
+    - generic [ref=e7]:
+      - generic [ref=e8]: Lösenord
+      - generic [ref=e9]:
+        - textbox "Lösenord" [ref=e10]:
+          - /placeholder: ••••••••
+          - text: assibarber
+        - button "Visa lösenord" [ref=e11] [cursor=pointer]
+    - button "Logga in" [ref=e16] [cursor=pointer]
+    - link "← Tillbaka till sidan" [ref=e17] [cursor=pointer]:
+      - /url: index.html
+  - generic [ref=e18]:
+    - complementary [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - generic [ref=e22]: C The Barber
+          - generic [ref=e23]: Adminpanel
+        - button "Stäng meny" [ref=e24] [cursor=pointer]
+      - navigation [ref=e27]:
+        - button "Översikt" [ref=e28] [cursor=pointer]
+        - button "Statistik" [ref=e35] [cursor=pointer]
+        - button "Bokningar" [ref=e42] [cursor=pointer]
+        - button "Kalender" [ref=e48] [cursor=pointer]
+        - button "Schema & tider" [ref=e53] [cursor=pointer]
+        - button "Inställningar" [ref=e58] [cursor=pointer]
+      - generic [ref=e63]:
+        - link "Visa hemsidan" [ref=e64] [cursor=pointer]:
+          - /url: index.html
+        - button "Logga ut" [ref=e69] [cursor=pointer]
+    - generic [ref=e74]:
+      - banner [ref=e75]:
+        - button "Öppna meny" [ref=e76] [cursor=pointer]:
+          - generic [ref=e79]: Meny
+        - heading "Översikt" [level=1] [ref=e81]
+        - generic [ref=e82]: Synkad
+      - main [ref=e85]

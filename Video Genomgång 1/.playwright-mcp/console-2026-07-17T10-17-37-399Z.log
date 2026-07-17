@@ -9,3 +9,38 @@
 [  180447ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:4533/admin.html:0
 [  210340ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4533/api/state:0
 [  210445ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:4533/admin.html:0
+[  240346ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4533/api/state:0
+[  240448ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:4533/admin.html:0
+[  270376ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4533/api/state:0
+[  270488ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:4533/admin.html:0
+[  300383ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4533/api/state:0
+[  300489ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:4533/admin.html:0
+[  330383ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4533/api/state:0
+[  330487ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:4533/admin.html:0
+[  360384ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4533/api/state:0
+[  360488ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:4533/admin.html:0
+[  390383ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4533/api/state:0
+[  390486ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:4533/admin.html:0
+[  420385ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4533/api/state:0
+[  420488ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:4533/admin.html:0
+[  450385ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4533/api/state:0
+[  450488ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:4533/admin.html:0
+[  480385ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4533/api/state:0
+[  480488ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:4533/admin.html:0
+[  510385ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4533/api/state:0
+[  510489ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:4533/admin.html:0
+[  540386ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4533/api/state:0
+[  540489ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:4533/admin.html:0
+[  570385ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4533/api/state:0
+[  570489ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:4533/admin.html:0
+[  600386ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4533/api/state:0
+[  600489ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:4533/admin.html:0
+[  630384ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4533/api/state:0
+[  630486ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:4533/admin.html:0
+[  660383ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4533/api/state:0
+[  660486ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:4533/admin.html:0
+[  690385ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4533/api/state:0
+[  690488ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:4533/admin.html:0
+[  720386ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:4533/api/state:0
+[  720489ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:4533/admin.html:0
+[  750491ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:4533/admin.html:0

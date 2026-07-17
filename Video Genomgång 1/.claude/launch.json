@@ -24,6 +24,13 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["--prefix", "/Users/macbookpro/Desktop/C The Barber", "start"],
       "port": 4533
+    },
+    {
+      "name": "svedala",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "4321"],
+      "cwd": "/Users/macbookpro/Desktop/svedala-pizzeria",
+      "port": 4321
     }
   ]
 }

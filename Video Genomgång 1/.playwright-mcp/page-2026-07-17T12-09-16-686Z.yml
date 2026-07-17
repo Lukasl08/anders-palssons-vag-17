@@ -1,0 +1,286 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]: Pizzeria Svedala
+  - banner [ref=e8]:
+    - link "Pizzeria Svedala, till toppen" [ref=e9] [cursor=pointer]:
+      - /url: "#top"
+      - generic [ref=e12]:
+        - text: Pizzeria
+        - emphasis [ref=e13]: Svedala
+    - navigation "Huvudmeny" [ref=e14]:
+      - link "Populärt" [ref=e15] [cursor=pointer]:
+        - /url: "#populart"
+      - link "Meny" [ref=e16] [cursor=pointer]:
+        - /url: "#meny"
+      - link "Om oss" [ref=e17] [cursor=pointer]:
+        - /url: "#om"
+      - link "Galleri" [ref=e18] [cursor=pointer]:
+        - /url: "#galleri"
+      - link "Kontakt" [ref=e19] [cursor=pointer]:
+        - /url: "#kontakt"
+    - generic [ref=e20]:
+      - link "Ring 040-40 00 35" [ref=e21] [cursor=pointer]:
+        - /url: tel:+46404000035
+        - text: 040-40 00 35
+      - link "Beställ nu" [ref=e22] [cursor=pointer]:
+        - /url: tel:+46404000035
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - img "Vedugnsbakad pizza med tomat, färsk mozzarella och ruccola på ett träfat" [ref=e26]
+      - generic [ref=e28]:
+        - paragraph [ref=e29]: Vedugnsbakat · Södergatan 2, Svedala
+        - heading "Smaker utöver det vanliga" [level=1] [ref=e30]:
+          - generic [ref=e31]: Smaker utöver
+          - generic [ref=e32]:
+            - text: det
+            - emphasis [ref=e33]: vanliga
+        - paragraph [ref=e34]: Deg som får jäsa i lugn och ro, råvaror vi väljer själva och en ugn som aldrig svalnar. Det här är pizza värd att gå ut för, mitt i Svedala.
+        - generic [ref=e35]:
+          - link "Beställ nu" [ref=e36] [cursor=pointer]:
+            - /url: tel:+46404000035
+          - link "Hitta hit" [ref=e38] [cursor=pointer]:
+            - /url: "#kontakt"
+        - list [ref=e39]:
+          - listitem [ref=e40]:
+            - strong [ref=e41]: Öppet idag
+            - generic [ref=e42]: till 21:00
+          - listitem [ref=e43]:
+            - strong [ref=e44]: Avhämtning
+            - generic [ref=e45]: 040-40 00 35
+          - listitem [ref=e46]:
+            - strong [ref=e47]: Glutenfritt
+            - generic [ref=e48]: finns, +30 kr
+      - link "Scrolla ner" [ref=e49] [cursor=pointer]:
+        - /url: "#populart"
+        - generic [ref=e51]: Se menyn
+    - generic [ref=e53]:
+      - generic [ref=e54]: Vedugnsbakat
+      - generic [ref=e56]: Oxfilé
+      - generic [ref=e58]: Inbakat
+      - generic [ref=e60]: Gyros
+      - generic [ref=e62]: Halloumi
+      - generic [ref=e64]: Falafel
+      - generic [ref=e66]: Kyckling
+      - generic [ref=e68]: Barnmeny
+      - generic [ref=e70]: Vedugnsbakat
+      - generic [ref=e72]: Oxfilé
+      - generic [ref=e74]: Inbakat
+      - generic [ref=e76]: Gyros
+      - generic [ref=e78]: Halloumi
+      - generic [ref=e80]: Falafel
+      - generic [ref=e82]: Kyckling
+      - generic [ref=e84]: Barnmeny
+    - generic [ref=e86]:
+      - generic [ref=e87]:
+        - generic [ref=e88]:
+          - paragraph [ref=e89]: Gästernas favoriter
+          - heading "De vi gör flest av" [level=2] [ref=e90]
+        - paragraph [ref=e91]: Sex pizzor som lämnar ugnen om och om igen. Alla bakas på vår egen deg och toppas för hand.
+      - generic [ref=e92]:
+        - article [ref=e93]:
+          - img "Margherita med tomat, mozzarella och basilika" [ref=e95]
+          - generic [ref=e96]:
+            - generic [ref=e97]:
+              - heading "Margherita" [level=3] [ref=e98]
+              - generic [ref=e99]: 95 kr
+            - paragraph [ref=e100]: Tomat, färsk mozzarella och basilika. Enkelt, och just därför svårt att slå.
+        - article [ref=e101]:
+          - img "Pizza med salami och skinka" [ref=e103]
+          - generic [ref=e104]:
+            - generic [ref=e105]:
+              - heading "Vesuvio" [level=3] [ref=e106]
+              - generic [ref=e107]: 105 kr
+            - paragraph [ref=e108]: Tomat, ost och rökt skinka. Klassikern som aldrig går ur tiden.
+        - article [ref=e109]:
+          - generic [ref=e110]: Husets
+          - img "Oxfilépizza med möra köttbitar, ruccola och tomat" [ref=e112]
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - heading "La Svedala" [level=3] [ref=e115]
+              - generic [ref=e116]: 159 kr
+            - paragraph [ref=e117]: Oxfilé, färsk ruccola, körsbärstomat och en skir vitlöksström. Vår stolthet.
+        - article [ref=e118]:
+          - img "Pizza med kyckling, rödlök och koriander" [ref=e120]
+          - generic [ref=e121]:
+            - generic [ref=e122]:
+              - heading "Kycklingpizza" [level=3] [ref=e123]
+              - generic [ref=e124]: 129 kr
+            - paragraph [ref=e125]: Marinerad kyckling, rödlök, färskost och en touch BBQ.
+        - article [ref=e126]:
+          - img "Vit pizza med fyra sorters ost" [ref=e128]
+          - generic [ref=e129]:
+            - generic [ref=e130]:
+              - heading "Quattro Formaggi" [level=3] [ref=e131]
+              - generic [ref=e132]: 125 kr
+            - paragraph [ref=e133]: Fyra ostar som smälter ihop till något krämigt och gott. Utan tomat.
+        - article [ref=e134]:
+          - img "Margheritapizza på mörkt mjölat underlag" [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e138]:
+              - heading "Bianca Verde" [level=3] [ref=e139]
+              - generic [ref=e140]: 119 kr
+            - paragraph [ref=e141]: Färsk mozzarella, körsbärstomat och basilika på tunn, luftig botten.
+    - generic [ref=e143]:
+      - generic [ref=e144]:
+        - img "Två nybakade pizzor på mörkt bord" [ref=e145]
+        - img "Pizza med salami och jalapeño redo att serveras" [ref=e146]
+        - generic [ref=e147]:
+          - generic [ref=e148]: Bakat
+          - strong [ref=e149]: i vedugn
+      - generic [ref=e150]:
+        - paragraph [ref=e151]: Om oss
+        - heading "En pizzeria som känns som hemma" [level=2] [ref=e152]: En pizzeria somkänns som hemma
+        - paragraph [ref=e153]: Vi är grannen på hörnet som råkar göra riktigt bra pizza. Här känner vi igen stammisarna, degen jäser långsamt och ugnen står het från lunch till kväll. Ingen konstlad meny, bara mat vi själva vill äta.
+        - paragraph [ref=e154]: Fräscha råvaror, ärlig kvalitet och service utan väntan. Välkommen in på en smakupplevelse utöver de vanliga.
+        - list [ref=e155]:
+          - listitem [ref=e156]:
+            - generic [ref=e157]: "01"
+            - generic [ref=e158]:
+              - strong [ref=e159]: Färska råvaror
+              - emphasis [ref=e160]: Handplockat, aldrig fryst i onödan.
+          - listitem [ref=e161]:
+            - generic [ref=e162]: "02"
+            - generic [ref=e163]:
+              - strong [ref=e164]: Vedugnsbakat
+              - emphasis [ref=e165]: Hög värme ger krispig, luftig botten.
+          - listitem [ref=e166]:
+            - generic [ref=e167]: "03"
+            - generic [ref=e168]:
+              - strong [ref=e169]: Snabb service
+              - emphasis [ref=e170]: Ring, hämta, njut. Sällan väntan.
+    - generic [ref=e171]:
+      - generic [ref=e172]:
+        - generic [ref=e173]:
+          - paragraph [ref=e174]: Ur menyn
+          - heading "Mer än bara pizza" [level=2] [ref=e175]
+        - paragraph [ref=e176]: Ett urval från kortet. Hela menyn med inbakade pizzor, kött, kyckling och barnrätter finns i restaurangen.
+      - generic [ref=e177]:
+        - tablist "Menykategorier" [ref=e178]:
+          - tab "Standard" [selected] [ref=e179] [cursor=pointer]
+          - tab "Inbakat" [ref=e180] [cursor=pointer]
+          - tab "Kött & Grill" [ref=e181] [cursor=pointer]
+          - tab "Veg & Gyros" [ref=e182] [cursor=pointer]
+        - generic [ref=e183]:
+          - generic [ref=e184]:
+            - generic [ref=e185]:
+              - generic [ref=e186]: "01"
+              - generic [ref=e187]: Margherita
+              - generic [ref=e188]: Tomat, ost, basilika
+              - generic [ref=e189]: 95 kr
+            - generic [ref=e190]:
+              - generic [ref=e191]: "02"
+              - generic [ref=e192]: Vesuvio
+              - generic [ref=e193]: Tomat, ost, skinka
+              - generic [ref=e194]: 105 kr
+            - generic [ref=e195]:
+              - generic [ref=e196]: "03"
+              - generic [ref=e197]: Capricciosa
+              - generic [ref=e198]: Skinka, champinjoner
+              - generic [ref=e199]: 110 kr
+            - generic [ref=e200]:
+              - generic [ref=e201]: "04"
+              - generic [ref=e202]: Hawaii
+              - generic [ref=e203]: Skinka, ananas
+              - generic [ref=e204]: 110 kr
+            - generic [ref=e205]:
+              - generic [ref=e206]: "05"
+              - generic [ref=e207]: Kebabpizza
+              - generic [ref=e208]: Kebabkött, lök, färskost, jalapeño
+              - generic [ref=e209]: 120 kr
+          - text: kr kr kr kr kr kr kr kr kr kr kr
+        - generic [ref=e210]:
+          - paragraph [ref=e211]:
+            - text: Glutenfri botten finns till alla pizzor för
+            - strong [ref=e212]: +30 kr
+            - text: .
+          - link "Beställ på 040-40 00 35" [ref=e213] [cursor=pointer]:
+            - /url: tel:+46404000035
+    - generic [ref=e214]:
+      - generic [ref=e216]:
+        - paragraph [ref=e217]: Från köket
+        - heading "Sådant vi är stolta över" [level=2] [ref=e218]
+      - generic [ref=e219]:
+        - figure [ref=e220]:
+          - img "Närbild på nybakad pizza med basilika" [ref=e221]
+        - figure [ref=e222]:
+          - img "Plankstek med oxfilé och pommespuré" [ref=e223]
+        - figure [ref=e224]:
+          - img "Gyrosrulle med kött, pommes och sallad" [ref=e225]
+        - figure [ref=e226]:
+          - img "Inbjudande restaurangmiljö" [ref=e227]
+        - figure [ref=e228]:
+          - img "Färgsprakande sallad med grönsaker" [ref=e229]
+        - figure [ref=e230]:
+          - img "Pizza som delas vid bordet" [ref=e231]
+    - generic [ref=e233]:
+      - generic [ref=e234]:
+        - paragraph [ref=e235]: Hitta hit
+        - heading "Välkommen förbi" [level=2] [ref=e236]
+        - paragraph [ref=e237]: Mitt på Södergatan i Svedala. Ring in din beställning så står den klar när du kommer.
+        - generic [ref=e238]:
+          - link "Adress Södergatan 2 233 31 Svedala" [ref=e239] [cursor=pointer]:
+            - /url: https://maps.google.com/?q=Södergatan+2,+233+31+Svedala
+            - generic [ref=e240]: Adress
+            - generic [ref=e241]: Södergatan 2233 31 Svedala
+          - link "Telefon 040-40 00 35" [ref=e242] [cursor=pointer]:
+            - /url: tel:+46404000035
+            - generic [ref=e243]: Telefon
+            - generic [ref=e244]: 040-40 00 35
+          - generic [ref=e245]:
+            - generic [ref=e246]: Öppettider
+            - generic [ref=e247]:
+              - generic [ref=e248]:
+                - emphasis [ref=e249]: Mån–Fre
+                - generic [ref=e250]: 15:00–21:00
+              - generic [ref=e251]:
+                - emphasis [ref=e252]: Lör–Sön
+                - generic [ref=e253]: 13:00–21:00
+        - link "Ring och beställ" [ref=e254] [cursor=pointer]:
+          - /url: tel:+46404000035
+      - iframe [ref=e256]
+  - contentinfo [ref=e257]:
+    - generic [ref=e258]:
+      - generic [ref=e259]:
+        - link "Pizzeria Svedala" [ref=e260] [cursor=pointer]:
+          - /url: "#top"
+          - generic [ref=e263]:
+            - text: Pizzeria
+            - emphasis [ref=e264]: Svedala
+        - paragraph [ref=e265]: Vedugnsbakade pizzor och grill på färska råvaror. Smaker utöver det vanliga, mitt i Svedala.
+        - generic [ref=e266]:
+          - link "Instagram" [ref=e267] [cursor=pointer]:
+            - /url: "#"
+          - link "Facebook" [ref=e272] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e275]:
+        - heading "Öppettider" [level=4] [ref=e276]
+        - list [ref=e277]:
+          - listitem [ref=e278]:
+            - generic [ref=e279]: Måndag–Fredag
+            - generic [ref=e280]: 15:00–21:00
+          - listitem [ref=e281]:
+            - generic [ref=e282]: Lördag–Söndag
+            - generic [ref=e283]: 13:00–21:00
+      - generic [ref=e284]:
+        - heading "Kontakt" [level=4] [ref=e285]
+        - list [ref=e286]:
+          - listitem [ref=e287]:
+            - link "Södergatan 2, 233 31 Svedala" [ref=e288] [cursor=pointer]:
+              - /url: https://maps.google.com/?q=Södergatan+2,+233+31+Svedala
+          - listitem [ref=e289]:
+            - link "040-40 00 35" [ref=e290] [cursor=pointer]:
+              - /url: tel:+46404000035
+      - generic [ref=e291]:
+        - heading "Meny" [level=4] [ref=e292]
+        - list [ref=e293]:
+          - listitem [ref=e294]:
+            - link "Populära pizzor" [ref=e295] [cursor=pointer]:
+              - /url: "#populart"
+          - listitem [ref=e296]:
+            - link "Ur menyn" [ref=e297] [cursor=pointer]:
+              - /url: "#meny"
+          - listitem [ref=e298]:
+            - link "Om oss" [ref=e299] [cursor=pointer]:
+              - /url: "#om"
+    - generic [ref=e300]:
+      - generic [ref=e301]: © 2026 Pizzeria Svedala
+      - generic [ref=e302]: Södergatan 2 · Svedala

@@ -1,0 +1,400 @@
+- generic [active] [ref=f8e1]:
+  - generic [ref=f8e3]: Pizzeria Svedala
+  - banner [ref=f8e8]:
+    - link "Pizzeria Svedala, till toppen" [ref=f8e9] [cursor=pointer]:
+      - /url: "#top"
+      - generic [ref=f8e13]:
+        - text: Pizzeria
+        - emphasis [ref=f8e14]: Svedala
+        - generic [ref=f8e15]: Södergatan 2
+    - button "Öppna meny" [ref=f8e16] [cursor=pointer]
+  - main [ref=f8e19]:
+    - generic [ref=f8e21]:
+      - generic [ref=f8e22]:
+        - paragraph [ref=f8e23]: Din lokala pizzeria i Svedala
+        - heading [level=1] [ref=f8e24]:
+          - text: Riktig pizza,
+          - emphasis [ref=f8e25]: nybakad
+          - text: varje dag
+        - paragraph [ref=f8e26]: Klassisk svensk pizzeria mitt i stan. Pizza, kebab, sallader och hamburgare lagat på färska råvaror. Ring och hämta, eller slå dig ner hos oss.
+        - generic [ref=f8e27]:
+          - link "Beställ nu" [ref=f8e28] [cursor=pointer]:
+            - /url: tel:+46404000035
+          - link "Hitta hit" [ref=f8e29] [cursor=pointer]:
+            - /url: "#kontakt"
+        - list [ref=f8e30]:
+          - listitem [ref=f8e31]:
+            - generic [ref=f8e32]: Öppet idag
+            - generic [ref=f8e33]: till 21:00
+          - listitem [ref=f8e34]:
+            - generic [ref=f8e35]: Avhämtning
+            - generic [ref=f8e36]: ring 040-40 00 35
+          - listitem [ref=f8e37]:
+            - generic [ref=f8e38]: Färska råvaror
+            - generic [ref=f8e39]: varje dag
+      - generic [ref=f8e40]:
+        - img "Nybakad pizza med tomat, ost, färska tomater och basilika" [ref=f8e43]
+        - generic [ref=f8e49]:
+          - generic [ref=f8e50]: Nybakat
+          - text: hela dagen
+    - generic [ref=f8e51]:
+      - generic [ref=f8e52]:
+        - generic [ref=f8e53]:
+          - paragraph [ref=f8e54]: Utforska menyn
+          - heading [level=2] [ref=f8e55]:
+            - text: Något för
+            - emphasis [ref=f8e56]: allas
+            - text: smak
+        - paragraph [ref=f8e57]: Från klassisk pizza till kebab, sallader och saftiga hamburgare. Allt lagas när du beställer.
+      - generic [ref=f8e58]:
+        - link [ref=f8e59] [cursor=pointer]:
+          - /url: "#meny"
+          - img "Klassisk pizza" [ref=f8e60]
+          - generic [ref=f8e61]:
+            - heading "Pizza" [level=3] [ref=f8e62]
+            - generic [ref=f8e63]: →
+        - link [ref=f8e64] [cursor=pointer]:
+          - /url: "#meny"
+          - img "Kebabpizza" [ref=f8e65]
+          - generic [ref=f8e66]:
+            - heading "Kebabpizza" [level=3] [ref=f8e67]
+            - generic [ref=f8e68]: →
+        - link [ref=f8e69] [cursor=pointer]:
+          - /url: "#meny"
+          - img "Kebab" [ref=f8e70]
+          - generic [ref=f8e71]:
+            - heading "Kebab & Gyros" [level=3] [ref=f8e72]
+            - generic [ref=f8e73]: →
+        - link [ref=f8e74] [cursor=pointer]:
+          - /url: "#meny"
+          - img "Sallader" [ref=f8e75]
+          - generic [ref=f8e76]:
+            - heading "Sallader" [level=3] [ref=f8e77]
+            - generic [ref=f8e78]: →
+        - link [ref=f8e79] [cursor=pointer]:
+          - /url: "#meny"
+          - img "Hamburgare" [ref=f8e80]
+          - generic [ref=f8e81]:
+            - heading "Hamburgare" [level=3] [ref=f8e82]
+            - generic [ref=f8e83]: →
+        - link [ref=f8e84] [cursor=pointer]:
+          - /url: "#meny"
+          - img "Pastarätter" [ref=f8e85]
+          - generic [ref=f8e86]:
+            - heading "Pasta" [level=3] [ref=f8e87]
+            - generic [ref=f8e88]: →
+    - generic [ref=f8e89]:
+      - generic [ref=f8e90]:
+        - generic [ref=f8e91]:
+          - paragraph [ref=f8e92]: Populärast just nu
+          - heading [level=2] [ref=f8e93]:
+            - text: Gästernas
+            - emphasis [ref=f8e94]: favoriter
+        - paragraph [ref=f8e95]: De vi bakar flest av. Välj storlek och ring in din beställning.
+      - generic [ref=f8e96]:
+        - article [ref=f8e97]:
+          - img "Vesuvio" [ref=f8e99]
+          - generic [ref=f8e100]:
+            - heading "Vesuvio" [level=3] [ref=f8e102]
+            - paragraph [ref=f8e103]: Tomat, ost och skinka. Klassikern som aldrig går ur tiden.
+            - generic [ref=f8e104]:
+              - generic [ref=f8e105]: Storlek
+              - button "Standard" [ref=f8e106] [cursor=pointer]
+              - button "Familj" [ref=f8e107] [cursor=pointer]
+            - generic [ref=f8e108]:
+              - generic [ref=f8e109]: 105 kr
+              - link "Beställ" [ref=f8e110] [cursor=pointer]:
+                - /url: tel:+46404000035
+        - article [ref=f8e111]:
+          - generic [ref=f8e112]:
+            - generic [ref=f8e113]: Populärast
+            - img "Margherita" [ref=f8e114]
+          - generic [ref=f8e115]:
+            - heading "Margherita" [level=3] [ref=f8e117]
+            - paragraph [ref=f8e118]: Tomat, ost och basilika. Enkelt, och just därför älskad av alla.
+            - generic [ref=f8e119]:
+              - generic [ref=f8e120]: Storlek
+              - button "Standard" [ref=f8e121] [cursor=pointer]
+              - button "Familj" [ref=f8e122] [cursor=pointer]
+            - generic [ref=f8e123]:
+              - generic [ref=f8e124]: 100 kr
+              - link "Beställ" [ref=f8e125] [cursor=pointer]:
+                - /url: tel:+46404000035
+        - article [ref=f8e126]:
+          - img "Kycklingpizza" [ref=f8e128]
+          - generic [ref=f8e129]:
+            - heading "Kycklingpizza" [level=3] [ref=f8e131]
+            - paragraph [ref=f8e132]: Kyckling, färska champinjoner, ananas och en touch curry.
+            - generic [ref=f8e133]:
+              - generic [ref=f8e134]: Storlek
+              - button "Standard" [ref=f8e135] [cursor=pointer]
+              - button "Familj" [ref=f8e136] [cursor=pointer]
+            - generic [ref=f8e137]:
+              - generic [ref=f8e138]: 115 kr
+              - link "Beställ" [ref=f8e139] [cursor=pointer]:
+                - /url: tel:+46404000035
+  - generic [ref=f8e144]:
+    - generic [ref=f8e145]:
+      - generic [ref=f8e146]:
+        - paragraph [ref=f8e147]: Bra att veta
+        - heading "Erbjudanden hos oss" [level=2] [ref=f8e148]
+      - paragraph [ref=f8e149]: Enkla, ärliga erbjudanden för vardag och helg. Ring in så fixar vi resten.
+    - generic [ref=f8e150]:
+      - generic [ref=f8e151]:
+        - generic [ref=f8e152]: Helg
+        - heading "Fredagsmys för hela familjen" [level=3] [ref=f8e153]
+        - paragraph [ref=f8e154]: Samla gänget kring nybakade familjepizzor. Ring in beställningen så står den varm när ni kommer.
+        - link "Beställ på 040-40 00 35" [ref=f8e155] [cursor=pointer]:
+          - /url: tel:+46404000035
+      - generic [ref=f8e156]:
+        - generic [ref=f8e157]: Varje vardag
+        - heading "Lunch i Svedala" [level=3] [ref=f8e158]
+        - paragraph [ref=f8e159]: Nylagad lunch mitt på dagen. Titta in eller hämta på vägen förbi.
+        - link "Se menyn" [ref=f8e160] [cursor=pointer]:
+          - /url: "#meny"
+  - main [ref=f8e164]:
+    - generic [ref=f8e165]:
+      - generic [ref=f8e166]:
+        - generic [ref=f8e167]:
+          - paragraph [ref=f8e168]: Hela kortet
+          - heading "Vår meny" [level=2] [ref=f8e169]
+        - paragraph [ref=f8e170]: Hela menyn, från klassiska pizzor till kebab, à la carte och barnrätter. Välj kategori nedan.
+      - generic [ref=f8e171]:
+        - tablist "Menykategorier" [ref=f8e172]:
+          - tab "Standard" [selected] [ref=f8e173] [cursor=pointer]
+          - tab "Vegetarisk" [ref=f8e174] [cursor=pointer]
+          - tab "Köttfärs" [ref=f8e175] [cursor=pointer]
+          - tab "Inbakat" [ref=f8e176] [cursor=pointer]
+          - tab "Fläskfilé" [ref=f8e177] [cursor=pointer]
+          - tab "Oxfilé" [ref=f8e178] [cursor=pointer]
+          - tab "Kyckling" [ref=f8e179] [cursor=pointer]
+          - tab "À la carte" [ref=f8e180] [cursor=pointer]
+          - tab "Kebab & Falafel" [ref=f8e181] [cursor=pointer]
+          - tab "Barn" [ref=f8e182] [cursor=pointer]
+        - paragraph [ref=f8e183]: Pizzapriser visas som standard / familj. Tomatsås och ost ingår i alla pizzor.
+        - generic [ref=f8e185]:
+          - generic [ref=f8e186]:
+            - generic [ref=f8e187]:
+              - generic [ref=f8e188]: Vesuvio
+              - generic [ref=f8e189]: Skinka
+            - generic [ref=f8e190]:
+              - text: "105"
+              - emphasis [ref=f8e191]: /200
+          - generic [ref=f8e192]:
+            - generic [ref=f8e193]:
+              - generic [ref=f8e194]: Capricciosa
+              - generic [ref=f8e195]: Skinka, färska champinjoner
+            - generic [ref=f8e196]:
+              - text: "105"
+              - emphasis [ref=f8e197]: /200
+          - generic [ref=f8e198]:
+            - generic [ref=f8e199]:
+              - generic [ref=f8e200]: Hawaii
+              - generic [ref=f8e201]: Skinka, ananas
+            - generic [ref=f8e202]:
+              - text: "105"
+              - emphasis [ref=f8e203]: /200
+          - generic [ref=f8e204]:
+            - generic [ref=f8e205]:
+              - generic [ref=f8e206]: Venezia
+              - generic [ref=f8e207]: Skinka, räkor
+            - generic [ref=f8e208]:
+              - text: "110"
+              - emphasis [ref=f8e209]: /205
+          - generic [ref=f8e210]:
+            - generic [ref=f8e211]:
+              - generic [ref=f8e212]: Stek
+              - generic [ref=f8e213]: Bacon, lök, ägg
+            - generic [ref=f8e214]:
+              - text: "110"
+              - emphasis [ref=f8e215]: /205
+          - generic [ref=f8e216]:
+            - generic [ref=f8e217]:
+              - generic [ref=f8e218]: Cabuso
+              - generic [ref=f8e219]: Salami, paprika
+            - generic [ref=f8e220]:
+              - text: "105"
+              - emphasis [ref=f8e221]: /200
+          - generic [ref=f8e222]:
+            - generic [ref=f8e223]:
+              - generic [ref=f8e224]: Musketör
+              - generic [ref=f8e225]: Färska champinjoner, lök, stark korv
+            - generic [ref=f8e226]:
+              - text: "115"
+              - emphasis [ref=f8e227]: /290
+          - generic [ref=f8e228]:
+            - generic [ref=f8e229]:
+              - generic [ref=f8e230]: Al Capone
+              - generic [ref=f8e231]: Skinka, bacon, stark korv, lök
+            - generic [ref=f8e232]:
+              - text: "125"
+              - emphasis [ref=f8e233]: /290
+          - generic [ref=f8e234]:
+            - generic [ref=f8e235]:
+              - generic [ref=f8e236]: Tacopizza
+              - generic [ref=f8e237]: Bacon, salami, stark korv, tacosås, jalapeño
+            - generic [ref=f8e238]:
+              - text: "125"
+              - emphasis [ref=f8e239]: /305
+          - generic [ref=f8e240]:
+            - generic [ref=f8e241]:
+              - generic [ref=f8e242]: Rosa
+              - generic [ref=f8e243]: Skinka, bacon, stark korv, stark sås
+            - generic [ref=f8e244]:
+              - text: "125"
+              - emphasis [ref=f8e245]: /305
+          - generic [ref=f8e246]:
+            - generic [ref=f8e247]:
+              - generic [ref=f8e248]: Bombay
+              - generic [ref=f8e249]: Skinka, jordnötter, banan, curry
+            - generic [ref=f8e250]:
+              - text: "105"
+              - emphasis [ref=f8e251]: /285
+          - generic [ref=f8e252]:
+            - generic [ref=f8e253]:
+              - generic [ref=f8e254]: La Maffia
+              - generic [ref=f8e255]: Skinka, bacon, svamp, lök, ägg, svartpeppar
+            - generic [ref=f8e256]:
+              - text: "115"
+              - emphasis [ref=f8e257]: /295
+          - generic [ref=f8e258]:
+            - generic [ref=f8e259]:
+              - generic [ref=f8e260]: Rimini
+              - generic [ref=f8e261]: Skinka, räkor, svamp
+            - generic [ref=f8e262]:
+              - text: "115"
+              - emphasis [ref=f8e263]: /295
+          - generic [ref=f8e264]:
+            - generic [ref=f8e265]:
+              - generic [ref=f8e266]: Princessa
+              - generic [ref=f8e267]: Skinka, räkor, ananas
+            - generic [ref=f8e268]:
+              - text: "115"
+              - emphasis [ref=f8e269]: /295
+          - generic [ref=f8e270]:
+            - generic [ref=f8e271]:
+              - generic [ref=f8e272]: Diablo
+              - generic [ref=f8e273]: Skinka, stark korv, jalapeño, tacosås
+            - generic [ref=f8e274]:
+              - text: "120"
+              - emphasis [ref=f8e275]: /295
+          - generic [ref=f8e276]:
+            - generic [ref=f8e277]:
+              - generic [ref=f8e278]: Cevapi Pizza
+              - generic [ref=f8e279]: Isbergssallad, tomat, gurka, lök, feferoni, kaymak
+            - generic [ref=f8e280]:
+              - text: "120"
+              - emphasis [ref=f8e281]: /295
+          - generic [ref=f8e282]:
+            - generic [ref=f8e283]:
+              - generic [ref=f8e284]: Azteka
+              - generic [ref=f8e285]: Skinka, jalapeño, tacosås, tzatzikisås
+            - generic [ref=f8e286]:
+              - text: "115"
+              - emphasis [ref=f8e287]: /295
+        - generic [ref=f8e288]:
+          - paragraph [ref=f8e289]:
+            - text: Alla pizzor finns i
+            - strong [ref=f8e290]: standard
+            - text: och
+            - strong [ref=f8e291]: familj
+            - text: . Tomatsås och ost ingår alltid.
+          - link "Beställ på 040-40 00 35" [ref=f8e292] [cursor=pointer]:
+            - /url: tel:+46404000035
+    - generic [ref=f8e294]:
+      - generic [ref=f8e295]:
+        - img "Pizzabagare som håller upp en nygräddad pizza" [ref=f8e296]
+        - img "Gäster som delar en pizza vid bordet" [ref=f8e297]
+        - generic [ref=f8e298]: Bakatför hand
+      - generic [ref=f8e300]:
+        - paragraph [ref=f8e301]: Om oss
+        - heading "En pizzeria som känns som hemma" [level=2] [ref=f8e302]: En pizzeria somkänns som hemma
+        - paragraph [ref=f8e303]: Vi är grannen på hörnet som råkar göra riktigt bra mat. Här känner vi igen stammisarna, degen får jäsa i lugn och ro och allt lagas när du beställer. Ingen krånglig meny, bara mat vi själva vill äta.
+        - paragraph [ref=f8e304]: Fräscha råvaror, ärlig kvalitet och ett leende över disken. Välkommen in på en smakupplevelse utöver de vanliga.
+        - list [ref=f8e305]:
+          - listitem [ref=f8e306]:
+            - generic [ref=f8e310]:
+              - strong [ref=f8e311]: Färska råvaror
+              - emphasis [ref=f8e312]: Handplockat, aldrig fryst i onödan.
+          - listitem [ref=f8e313]:
+            - generic [ref=f8e317]:
+              - strong [ref=f8e318]: Nybakat på plats
+              - emphasis [ref=f8e319]: Varje pizza gräddas när du beställer.
+          - listitem [ref=f8e320]:
+            - generic [ref=f8e325]:
+              - strong [ref=f8e326]: Snabb service
+              - emphasis [ref=f8e327]: Ring, hämta och njut. Sällan väntan.
+    - generic [ref=f8e329]:
+      - generic [ref=f8e330]:
+        - paragraph [ref=f8e331]: Hitta hit
+        - heading "Välkommen förbi" [level=2] [ref=f8e332]
+        - paragraph [ref=f8e333]: Mitt på Södergatan i Svedala. Ring in din beställning så står den klar när du kommer.
+        - generic [ref=f8e334]:
+          - link "Adress Södergatan 2, 233 31 Svedala" [ref=f8e335] [cursor=pointer]:
+            - /url: https://maps.google.com/?q=Södergatan+2,+233+31+Svedala
+            - generic [ref=f8e336]: Adress
+            - generic [ref=f8e337]: Södergatan 2, 233 31 Svedala
+          - link "Telefon 040-40 00 35" [ref=f8e338] [cursor=pointer]:
+            - /url: tel:+46404000035
+            - generic [ref=f8e339]: Telefon
+            - generic [ref=f8e340]: 040-40 00 35
+          - generic [ref=f8e341]:
+            - generic [ref=f8e342]: Öppettider
+            - generic [ref=f8e343]:
+              - generic [ref=f8e344]:
+                - emphasis [ref=f8e345]: Måndag–Fredag
+                - generic [ref=f8e346]: 15:00–21:00
+              - generic [ref=f8e347]:
+                - emphasis [ref=f8e348]: Lördag–Söndag
+                - generic [ref=f8e349]: 13:00–21:00
+        - link "Ring och beställ" [ref=f8e350] [cursor=pointer]:
+          - /url: tel:+46404000035
+      - iframe [ref=f8e352]
+  - contentinfo [ref=f8e353]:
+    - generic [ref=f8e354]:
+      - generic [ref=f8e355]:
+        - link "Pizzeria Svedala" [ref=f8e356] [cursor=pointer]:
+          - /url: "#top"
+          - generic [ref=f8e360]:
+            - text: Pizzeria
+            - emphasis [ref=f8e361]: Svedala
+            - generic [ref=f8e362]: Södergatan 2
+        - paragraph [ref=f8e363]: Klassisk svensk pizzeria med nybakad pizza, kebab, sallader och hamburgare. Din lokala favorit i Svedala.
+        - generic [ref=f8e364]:
+          - link "Instagram" [ref=f8e365] [cursor=pointer]:
+            - /url: "#"
+          - link "Facebook" [ref=f8e370] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=f8e373]:
+        - heading "Öppettider" [level=4] [ref=f8e374]
+        - list [ref=f8e375]:
+          - listitem [ref=f8e376]:
+            - generic [ref=f8e377]: Mån–Fre
+            - generic [ref=f8e378]: 15–21
+          - listitem [ref=f8e379]:
+            - generic [ref=f8e380]: Lör–Sön
+            - generic [ref=f8e381]: 13–21
+      - generic [ref=f8e382]:
+        - heading "Kontakt" [level=4] [ref=f8e383]
+        - list [ref=f8e384]:
+          - listitem [ref=f8e385]:
+            - link "Södergatan 2, Svedala" [ref=f8e386] [cursor=pointer]:
+              - /url: https://maps.google.com/?q=Södergatan+2,+233+31+Svedala
+          - listitem [ref=f8e387]:
+            - link "040-40 00 35" [ref=f8e388] [cursor=pointer]:
+              - /url: tel:+46404000035
+      - generic [ref=f8e389]:
+        - heading "Meny" [level=4] [ref=f8e390]
+        - list [ref=f8e391]:
+          - listitem [ref=f8e392]:
+            - link "Kategorier" [ref=f8e393] [cursor=pointer]:
+              - /url: "#kategorier"
+          - listitem [ref=f8e394]:
+            - link "Populärt" [ref=f8e395] [cursor=pointer]:
+              - /url: "#populart"
+          - listitem [ref=f8e396]:
+            - link "Ur menyn" [ref=f8e397] [cursor=pointer]:
+              - /url: "#meny"
+    - generic [ref=f8e398]:
+      - generic [ref=f8e399]: © 2026 Pizzeria Svedala
+      - generic [ref=f8e400]: Södergatan 2 · 233 31 Svedala
